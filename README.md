@@ -20,7 +20,7 @@ Tải file zip ở [đây](https://github.com/Barnacl437/deadlock-vietnamese/arc
 
 Và lại theo địa chỉ như trên vào mục `resource`.
 
-Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. Tiếp tục bấm biểu tượng bánh răng trong thư viện client Steam, hoặc chuột phải vào tên game ở panel bên trái, chọn Properties, và dán dòng này vào Launch options: `-language vietnamese` (dán nối tiếp các options trước đó nếu có) và đóng cửa sổ.
+Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. Tiếp tục bấm biểu tượng bánh răng trong thư viện client Steam, hoặc chuột phải vào tên game ở panel bên trái, chọn Properties, và bạn dán dòng này vào Launch options: `-language vietnamese` (dán nối tiếp các options trước đó nếu có) và đóng cửa sổ.
 
 ## chụp màn hình
 
@@ -28,15 +28,7 @@ Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. 
   <summary>hiện ảnh chụp</summary>
 <hr>
   
-  **Main menu** (từ khoảng 20/8)
-  ![20240820190753_1](https://github.com/user-attachments/assets/3aaeb122-2c74-4c53-97be-0055703fbef3)
-
-**Settings/Graphics** (và các ảnh sau, sau 25/8)
-![20240830221932_1](https://github.com/user-attachments/assets/41efdc98-e42f-48d3-8285-f12b54c1a277)
-
-**The Curiosity Store/Build** (item chưa được dịch)
-![20240829143042_1](https://github.com/user-attachments/assets/c6a659b1-1c5a-4901-a7a8-4c2858ec9369)
-
-**Mấy cảnh in-game**
-![20240829142534_1](https://github.com/user-attachments/assets/9f30cb9b-46ab-4c37-92d9-02385ecb16f3)
-![20240829142517_1](https://github.com/user-attachments/assets/cddd8c9d-2557-4f68-9361-2d8ab45d0b89)
+![items](https://github.com/user-attachments/assets/036f7d7b-c5ca-4de6-b07e-f6a38d9f7eeb)
+![lore](https://github.com/user-attachments/assets/42569e93-c742-45fe-b7c5-0831e385834b)
+![Main](https://github.com/user-attachments/assets/678d6d5d-836f-415b-8165-84d09422ad9f)
+![setting](https://github.com/user-attachments/assets/36e65737-a771-4dd6-a354-e511bae37721)
