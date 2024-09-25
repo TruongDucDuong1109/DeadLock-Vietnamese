@@ -24,8 +24,6 @@ Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. 
 
 ## chụp màn hình
 
-<details>
-  <summary>hiện ảnh chụp</summary>
 <hr>
   
 ![items](https://github.com/user-attachments/assets/036f7d7b-c5ca-4de6-b07e-f6a38d9f7eeb)
