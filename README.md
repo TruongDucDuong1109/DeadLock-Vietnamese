@@ -10,7 +10,7 @@ Tạm thời đã hoàn thành phần dịch cơ bản để các bạn có th�
 
 ### Tải và thử ?
 
-Tải file zip ở [đây](https://github.com/Barnacl437/deadlock-vietnamese/archive/refs/heads/main.zip) (luôn mới nhất từ branch main), giải nén thư mục `localization` và copy/move vào địa chỉ `[...]\steamapps\common\Deadlock\game\citadel\resource`, trong đó `[...]` là địa chỉ Steam Library của bạn.
+Tải file zip ở [đây](https://github.com/TruongDucDuong1109/DeadLock-Vietnamese/archive/refs/heads/main.zip) (luôn mới nhất từ branch main), giải nén thư mục `localization` và copy/move vào địa chỉ `[...]\steamapps\common\Deadlock\game\citadel\resource`, trong đó `[...]` là địa chỉ Steam Library của bạn.
 
 ![đây nì](https://github.com/user-attachments/assets/e2555dec-0f38-4d87-8cc8-023dcccefeb4)
 
