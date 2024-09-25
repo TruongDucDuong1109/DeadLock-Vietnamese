@@ -25,8 +25,15 @@ Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. 
 ## chụp màn hình
 
 <hr>
-  
+
+**Trang Bị**
 ![items](https://github.com/user-attachments/assets/036f7d7b-c5ca-4de6-b07e-f6a38d9f7eeb)
+
+**Tiểu Sử Nhân Vật**
 ![lore](https://github.com/user-attachments/assets/42569e93-c742-45fe-b7c5-0831e385834b)
+
+**Menu Chính**
 ![Main](https://github.com/user-attachments/assets/678d6d5d-836f-415b-8165-84d09422ad9f)
+
+**Cài Đặt**
 ![setting](https://github.com/user-attachments/assets/36e65737-a771-4dd6-a354-e511bae37721)
