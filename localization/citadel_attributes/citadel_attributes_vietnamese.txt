@@ -368,15 +368,15 @@
 		//"ActiveHealthRegenBoost_postfix"			"hp/giây"
 		"ActiveHealthRegenBoost_label"				"Hồi Máu"
 		
-		"NonPlayerBonusWeaponPower_label"			"Sát Thương Vũ Khí "
+		"NonPlayerBonusWeaponPower_label"			"Sát Thương Vũ Khí lên NPCs "
 		"NonPlayerBonusWeaponPower_prefix"			"+"
 		"NonPlayerBonusWeaponPower_postfix"			"%"
-		"NonPlayerBonusWeaponPower_conditional"		"chống lại Lính"
+		"NonPlayerBonusWeaponPower_conditional"		"chống lại NPCs"
 		
-		"NonPlayerBulletResist_label"				"Kháng Đạn Lính"
+		"NonPlayerBulletResist_label"				"Kháng Đạn NPCs"
 		"NonPlayerBulletResist_prefix"				"+"
 		"NonPlayerBulletResist_postfix"				"%"
-		"NonPlayerBulletResist_conditional"			"chống lại Lính"
+		"NonPlayerBulletResist_conditional"			"ichống lạ NPCs"
 		
 		"BonusMeleeDamagePercent_prefix"			"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"			"%"
@@ -907,11 +907,11 @@
 		"ReloadSpeedMultipler_postfix"					"%"
 		
 		"HealthRegenPerTrooper_prefix"					"+"
-		"HealthRegenPerTrooper_postfix"					" mỗi lính gần đó"
+		"HealthRegenPerTrooper_postfix"					" mỗi NPCs gần đó"
 		"HealthRegenPerTrooper_label"					"Hồi Máu"
 		
-		//"TroopersToSummon_label"						"Lính Được Tạo"
-		//"TrooperLifetime_label"						"Thời Gian Sống Của Lính"
+		//"TroopersToSummon_label"						"NPCs Được Tạo"
+		//"TrooperLifetime_label"						"Thời Gian Sống Của NPCs"
 		"TrooperLifetime_postfix"						"s"
 		
 		"DamagePerChain_label"							"Sát Thương Sốc"
@@ -1070,7 +1070,7 @@
 		
 		"MeleeDamage_label"								"Sát Thương Cận Chiến"
 		
-		//"ConvertedHealth_label"						"Máu Lính"
+		//"ConvertedHealth_label"						"Máu NPCs"
 		
 		"SilenceDuration_label"							"Thời Gian Câm Lặng"
 		"SilenceDuration_postfix"						" giây"
@@ -1299,7 +1299,7 @@
 		
 		//"BouncePadStompCount_label"					"Số Lần Dậm Đầu Tối Đa"
 		
-		"NPCProcChance_label"							"Cơ Hội Proc Lính"
+		"NPCProcChance_label"							"Cơ Hội Proc NPCs"
 		"NPCProcChance_postfix"							"%"
 		
 		"HeroProcChance_label"							"Cơ Hội Proc Hero"
