@@ -647,11 +647,12 @@
 				"BuffDuration_label"	"Thời Gian"
 				"BuffDuration_postfix"	"s"
 		
-				//Mề Đay Phục Hồi
-				"upgrade_restorative_locket_passive_desc"	"Khi kẻ thù sử dụng kỹ năng trong phạm vi {s:Radius}m từ bạn, lưu trữ một <span class=\"highlight\">Cộng Dồn Phục Hồi</span>."
-				"upgrade_restorative_locket_active_desc"	"Tiêu thụ tất cả các cộng dồn để <span class=\"highlight\">hồi phục Đồng Minh</span>. Nếu sử dụng ở mức cộng dồn tối đa, nó sẽ bổ sung một <span class=\"highlight\">điểm sức bền</span> cho Đồng Minh. Có thể tự sử dụng."
-				"modifier_restorative_locket_stacks"	"Mề Đay Phục Hồi"
-				"HealPerStack_label"	"Hồi Phục Mỗi Cộng Dồn"
+		//Restorative Locket
+		"upgrade_restorative_locket_passive_desc"		"Khi kẻ địch sử dụng kỹ năng trong phạm vi {s:Radius}m từ bạn, lưu trữ một <span class=\"highlight\">Điểm Phục Hồi</span>."
+		"upgrade_restorative_locket_active_desc"		"Tiêu thụ tất cả các điểm để <span class=\"highlight\">hồi máu cho đồng minh mục tiêu</span> và bổ sung một <span class=\"highlight\">điểm thể lực</span>. Có thể tự sử dụng."
+		"modifier_restorative_locket_stacks"				"Dây Chuyền Phục Hồi"
+		"HealPerStack_label"								"Hồi Máu Mỗi Điểm"
+
 		//Chắn Đạn
 		"upgrade_health_bullet_deflector_desc"	"Ngăn chặn <span class=\"highlight\">{s:BulletDamageReductionPct}%</span> sát thương đạn đến, với tối đa <span class=\"highlight\">{s:BulletDamageReductionPerSecond}</span> sát thương bị chặn mỗi giây."
 		
@@ -760,12 +761,12 @@
 		"upgrade_bullet_damage_reduction_aura/modifier_base_aura/aura_target_modifier"	"Tốc Độ Tấn Công Chậm"
 		"upgrade_fire_rate_reduction_aura/modifier_base_aura/aura_target_modifier"	"Aura Giảm Tốc Độ Bắn"
 	
-			//Phản Đòn
-		"upgrade_return_fire_desc"	"Tự động <span class=\"highlight\">bắn một viên đạn</span> về phía bất kỳ kẻ tấn công nào gây sát thương cho bạn bằng kỹ năng hoặc vũ khí của họ."
-		"modifier_armor_return_fire"	"Phản Đòn"
-		"ActiveFireRate_label"	"Tốc Độ Bắn"
-		"ActiveFireRate_postfix"	"%"
-		"modifier_citadel_basicdamagereflect"	"Phản Sát Thương"
+		//Return Fire
+		"upgrade_return_fire_desc"					"Tự động <span class=\"highlight\">bắn một viên đạn</span> về phía bất kỳ kẻ tấn công nào gây sát thương cho bạn bằng kỹ năng hoặc vũ khí của họ."
+		"modifier_armor_return_fire"				"Phản Đòn"
+		"ActiveFireRate_label"						"Tốc Độ Bắn"
+		"ActiveFireRate_postfix"					"%"
+		//"modifier_citadel_basicdamagereflect" 	"Phản Sát Thương"
 		
 		//Da Kim Loại
 		"upgrade_metal_skin_desc"	"Trở nên <span class=\"highlight\">miễn nhiễm với đạn và các đòn cận chiến</span>."
@@ -776,16 +777,22 @@
 		//Giáp Tái Sinh
 		"upgrade_regenerative_armor_desc"	"Nhận một đợt hồi phục Máu ngắn khi nhận sát thương đạn từ anh hùng."
 		
-		//Rào Cản Chiến Đấu
-		"upgrade_regenerating_bullet_shield_desc"	"Khi bạn có <span class=\"highlight\">Khiên Đạn</span>, nhận <span class=\"highlight\">Sát Thương Vũ Khí</span>."
-		"BonusBaseWeaponDamageWithShield_label"	"Sát Thương Vũ Khí Khi Có Khiên"
+		//Combat Barrier
+		"upgrade_regenerating_bullet_shield_desc"	"Khi bạn có <span class=\"highlight\">Khiên Đạn</span>, nhận thêm <span class=\"highlight\">Sát Thương Vũ Khí</span> và <span class=\"highlight\">Tốc Độ Bắn</span>."
+		"BonusBaseWeaponDamageWithShield_label"		"Sát Thương Vũ Khí Khi Có Khiên"
 		"BonusBaseWeaponDamageWithShield_postfix"	"%"
 		"BonusBaseWeaponDamageWithShield_prefix"	"+"
+		"FireRateWhenShielded_label"	"Tốc Độ Bắn Khi Có Khiên"
+		"FireRateWhenShielded_postfix"	"%"
+		"FireRateWhenShielded_prefix"	"+"
 		
-		//Rào Cản Pháp Sư
-		"upgrade_magic_shield_desc"	"Khi bạn có <span class=\"highlight\">Khiên Phép Thuật</span>, nhận thêm <span class=\"highlight\">Sức Mạnh Phép Thuật</span>."
-		"BonusSpiritWithMagicShield_label"	"Sức Mạnh Phép Thuật Khi Có Khiên"
-		"BonusSpiritWithMagicShield_prefix"	"+"
+		//Enchanter's Barrier
+		"upgrade_magic_shield_desc"		"Khi bạn có <span class=\"highlight\">Khiên Phép Thuật</span>, nhận thêm <span class=\"highlight\">Sức Mạnh Phép Thuật</span> và <span class=\"highlight\">Giảm Thời Gian Hồi Chiêu</span>."
+		"BonusSpiritWithMagicShield_label"		"Sức Mạnh Phép Thuật Khi Có Khiên"
+		"BonusSpiritWithMagicShield_prefix"		"+"
+		"CooldownReductionWithShield_label"		"Giảm Thời Gian Hồi Chiêu Khi Có Khiên"
+		"CooldownReductionWithShield_prefix"	"+"
+		"CooldownReductionWithShield_postfix"	"%"
 		
 		//Tấn Công Trên Không
 		"upgrade_aerial_assault_active"	"<span class=\"highlight\">Phóng thẳng lên</span> cao vào không trung. Trong khi ở trên không, bạn sẽ tạm dừng chuyển động trên không trong {s:AssaultDuration}s</span>. Trong thời gian này, bạn nhận <span class=\"highlight\">+{s:AssaultLifestealPercent}% hút máu đạn</span>, <span class=\"highlight\">băng đạn không giới hạn</span>, <span class=\"highlight\">+{s:AssaultFireRate}% tốc độ bắn</span>, và đạn <span class=\"highlight\">nổ</span> trong bán kính {s:ExplodeRadius}m."

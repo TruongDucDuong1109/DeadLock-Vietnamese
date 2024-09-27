@@ -376,7 +376,7 @@
 		"NonPlayerBulletResist_label"				"Kháng Đạn NPCs"
 		"NonPlayerBulletResist_prefix"				"+"
 		"NonPlayerBulletResist_postfix"				"%"
-		"NonPlayerBulletResist_conditional"			"ichống lạ NPCs"
+		"NonPlayerBulletResist_conditional"			"chống lại NPCs"
 		
 		"BonusMeleeDamagePercent_prefix"			"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"			"%"
@@ -1525,6 +1525,8 @@
 		"DamageReflectedFrequencyPct_label"				"Cơ Hội Proc"
 		"DamageReflectedFrequencyPct_postfix"			"%"
 		"modifier_armor_reactive_armor"					"Phản Công"
+		"ReturnFireBulletResist_label"					"Kháng đạn"
+		"ReturnFireBulletResist_postfix"					"%"
 		
 		//"RespawnBonusHealth_label"					"Máu Thêm Khi Hồi Sinh"
 		//"RespawnBonusHealthDuration_label"			"Thời Gian Máu Thêm Khi Hồi Sinh"
