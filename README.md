@@ -22,6 +22,13 @@ Và lại theo địa chỉ như trên vào mục `resource`.
 
 Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. Tiếp tục bấm biểu tượng bánh răng trong thư viện client Steam, hoặc chuột phải vào tên game ở panel bên trái, chọn Properties, và bạn dán dòng này vào Launch options: `-language vietnamese` (dán nối tiếp các options trước đó nếu có) và đóng cửa sổ.
 
+## Donnate cho mình ly cafe ?
+
+Tài Khoản ngân hàng:
+0375498645
+Vietinbank
+TRUONG DUC DUONG
+
 ## chụp màn hình
 
 <hr>
