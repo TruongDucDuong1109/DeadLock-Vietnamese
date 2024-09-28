@@ -25,7 +25,7 @@ Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. 
 ## Donnate cho mình ly cafe ?
 
 Tài Khoản ngân hàng:
-0375498645
+0375498645\n
 Vietinbank
 TRUONG DUC DUONG
 
