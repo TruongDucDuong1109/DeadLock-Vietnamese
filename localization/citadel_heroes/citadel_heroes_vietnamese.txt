@@ -6,15 +6,15 @@
 		//-----------------------------------------------------------------------------
 		// Hero Bull // Abrams
 		//-----------------------------------------------------------------------------
-		"citadel_ability_bull_charge"			"Shoulder Charge"
+		"citadel_ability_bull_charge"			"Húc Vai"
 		"citadel_ability_bull_charge_quip"		"Lao vào cuộc chiến, kéo theo kẻ thù"
 		"citadel_ability_bull_charge_desc"		"<span class=\"highlight\">Lao về phía trước</span>, va chạm với kẻ thù và kéo chúng theo. Đâm vào <span class=\"highlight\">tường</span> sẽ <span class=\"highlight\">Làm Choáng</span> kẻ thù bị {s:hero_name} bắt được. Tốc độ tăng sau khi va chạm với Anh Hùng địch."
 		//"modifier_citadel_bull_charging"		"Đang Lao"
 		"citadel_ability_bull_charge_t3_desc"		"<span class=\"highlight\">+{s:WeaponDamageBonus}</span> Sát Thương Vũ Khí trong <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}s</span> sau khi va chạm với kẻ thù"
 		"modifier_shoulder_charge_buff"			"Sát Thương Thêm"
-		"modifier_charge_drag_enemy"			"Shoulder Charge"
+		"modifier_charge_drag_enemy"			"Húc Vai"
 
-		"citadel_ability_bull_heal"				"Siphon Life"
+		"citadel_ability_bull_heal"				"Hút Sinh Lực"
 		"citadel_ability_bull_heal_quip"		"Hút máu từ kẻ thù trước mặt bạn"
 		"citadel_ability_bull_heal_desc"		"Hút máu từ kẻ thù trước mặt bạn khi chúng ở trong bán kính."
 		
@@ -23,9 +23,9 @@
 		"NonHeroHealingFactor_label"			"Hồi máu vs không phải anh hùng"
 		"NonHeroHealingFactor_postfix"			"%"
 
-		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"Siphon Life"
+		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"Hút Sinh Lực"
 
-		"citadel_ability_passive_beefy"			"Infernal Resilience"
+		"citadel_ability_passive_beefy"			"Nội Tại Địa Ngục"
 		"citadel_ability_passive_beefy_quip"	"Tái tạo một phần sát thương bạn nhận"
 		"citadel_ability_passive_beefy_desc"	"<span class=\"highlight\">Tái tạo</span> một phần sát thương nhận vào theo thời gian."
 		"RegenIncomingDamagePercent_label"		"Sát thương tái tạo"
@@ -33,7 +33,7 @@
 		"RegenIncomingDamageDuration_label"		"Thời gian tái tạo"
 		"RegenIncomingDamageDuration_postfix"		"s"
 
-		"citadel_ability_bull_leap"				"Seismic Impact"
+		"citadel_ability_bull_leap"				"Long Trời Lở Đất"
 		"citadel_ability_bull_leap_quip"		"Đập vào kẻ thù từ trên cao, làm chúng choáng váng"
 		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">Nhảy lên cao</span> và chọn một vị trí trên mặt đất để đâm vào. Khi bạn chạm đất, <span class=\"highlight\">tất cả kẻ thù trong bán kính sẽ bị sát thương và choáng váng</span>.<br>Nhấn [{s:iv_attack}] để đâm xuống sớm."
 		//"modifier_citadel_bull_leap"			"Tăng cường"
@@ -54,17 +54,17 @@
 		//"citadel_ability_chain_lightning_t3"	"Nón 360 Độ"
 		//"citadel_ability_chain_lightning_t3_desc"	"Sét chuỗi có thể đánh trúng bất kỳ kẻ thù nào xung quanh mục tiêu."
 
-		"citadel_ability_static_charge"			"Static Charge"
+		"citadel_ability_static_charge"			"Tích Điện"
 		"citadel_ability_static_charge_quip"	"Gây choáng diện rộng có độ trễ lên tướng địch."
-		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Static Charge"
+		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Tích Điện"
 
-		"citadel_ability_lightning_ball"		"Lightning Ball"
+		"citadel_ability_lightning_ball"		"Quả Cầu Sét"
 		"citadel_ability_lightning_ball_quip"	"Phóng ra một quả cầu sét gây sát thương mạnh mẽ."
 		"citadel_ability_lightning_ball_desc"	"Bắn ra một quả cầu sét di chuyển theo đường thẳng. Gây <span class=\"highlight\">sát thương cho tất cả mục tiêu trong bán kính</span>. Quả cầu sẽ chậm lại khi gây sát thương cho kẻ địch và dừng lại nếu va chạm với địa hình."
 		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} DPS"
-		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"Quả Cầu Sét Chậm"
+		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"Quả Cầu Sét"
 
-		"ability_power_surge"					"Power Surge"
+		"ability_power_surge"					"Dòng Chảy Sức Mạnh"
 		"ability_power_surge_quip"			"Tạo ra các tia điện với mỗi phát bắn."
 		"ability_power_surge_desc"			"Tăng cường vũ khí của bạn với hiệu ứng sốc, khiến <span class=\"highlight\">đạn của bạn kích hoạt sát thương sốc lên mục tiêu</span>. Sát thương sốc này <span class=\"highlight\">nảy sang kẻ địch</span> gần mục tiêu của bạn. Hiệu ứng xảy ra một lần mỗi lần bắn."
 		"ability_power_surge_t1_desc"			"Sát Thương Sốc áp dụng {s:TechResistDebuff}% Kháng Tinh Thần trong {s:DebuffDuration}s"
@@ -82,7 +82,7 @@
 		//"DrainTimeNeeded_label"				"Thời gian để kích hoạt hút năng lượng"
 		"DrainTimeNeeded_postfix"				"s"
 
-		"citadel_ability_storm_cloud"			"Storm Cloud"
+		"citadel_ability_storm_cloud"			"Đám Mây Cuồng Phong"
 		"citadel_ability_storm_cloud_quip"		"Chiên giòn tất cả kẻ thù trong một khu vực rộng lớn"
 		"citadel_ability_storm_cloud_desc"		"Tạo ra một đám mây bão mở rộng xung quanh bạn mà <span class=\"highlight\">gây sát thương cho tất cả kẻ thù</span> trong bán kính của nó. Kẻ thù không nhận sát thương khi chúng ở ngoài tầm nhìn. Bạn có thêm <span class=\"highlight\">Kháng Đạn</span> trong khi kích hoạt."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive}% Kháng Đạn</span> trong khi kích hoạt Đám Mây Bão"
@@ -95,57 +95,56 @@
 		//-----------------------------------------------------------------------------
 		// Hero Cadence
 		//-----------------------------------------------------------------------------
-		//"citadel_weapon_hero_cadence_set"		"Arioso Annihilator"
+		//"citadel_weapon_hero_cadence_set"		"Hủy Diệt Arioso"
 		//"citadel_weapon_hero_cadence_set_desc"	"Bắn ra những loạt 4 viên đạn, cắm một mảnh tinh thể vào mục tiêu. Sau 1 giây, các mảnh tinh thể sẽ vỡ vụn và gây sát thương như viên đạn một lần nữa. Sát thương vỡ vụn sẽ gấp đôi nếu có 5 mảnh tinh thể trở lên được cắm vào."
 
-		//"cadence_ability_anthem"						"Anthem"
-		//"cadence_ability_anthem_quip"					"Lead the charge, inspiring allies in earshot and giving them weapon buffs"
-		//"cadence_ability_anthem_desc"				"Burst into an inspiring song! You and any ally that comes within range get an instant reload with an extra large clip, and have a Fire Rate bonus that increases until the song ends."
-
-		//"modifier_cadence_anthem_buff"				"Cadence Anthem"
-		//"modifier_cadence_anthem_aoe"					"Singing Anthem"
-		//"ExtraLargeClip_label"						"Clip Bonus"
+		"cadence_ability_anthem"						"Khúc Ca Hùng Tráng"
+		"cadence_ability_anthem_quip"					"Dẫn đầu cuộc tấn công, truyền cảm hứng cho đồng đội trong tầm nghe và tăng cường vũ khí cho họ"
+		"cadence_ability_anthem_desc"					"Bùng nổ trong một bài ca đầy cảm hứng! Bạn và bất kỳ đồng đội nào trong tầm sẽ được nạp đạn ngay lập tức với một băng đạn lớn hơn, và có thêm tốc độ bắn tăng dần cho đến khi bài ca kết thúc."
+		
+		"modifier_cadence_anthem_buff"					"Khúc Ca Cadence"
+		"modifier_cadence_anthem_aoe"					"Đang Hát Khúc Ca"
+		"ExtraLargeClip_label"							"Băng Đạn Thêm"
 		"ExtraLargeClip_postfix"						"%"
-		//"PeakFireRateBonus_label"						"Peak Fire Rate Bonus"
-		"PeakFireRateBonus_postfix"					"%"
+		"PeakFireRateBonus_label"						"Tốc Độ Bắn Tối Đa"
+		"PeakFireRateBonus_postfix"						"%"
 
 
-		//"cadence_ability_lullaby"					"Lullaby"
-		//"cadence_ability_lullaby_quip"			"Lull any foe you come within earshot of to sleep."
-		//"cadence_ability_lullaby_desc"			"Lull your foes to sleep! Any enemy that comes in range of Cadence sleeps until woken by damage, Cadence goes out of range, or the song ends. Cadence has bonus regeneration while singing."
-		//"modifier_cadence_sleeping"				"Sleeping"
-		//"modifier_cadence_sleep_aoe"				"Singing a Lullaby"
-		//"LingerDuration_label"					"Linger Duration"
+		"cadence_ability_lullaby"					"Khúc Ru Tử Thần"
+		"cadence_ability_lullaby_quip"				"Ru ngủ bất kỳ kẻ thù nào trong tầm ."
+		"cadence_ability_lullaby_desc"				"Ru kẻ thù của bạn vào giấc ngủ! Bất kỳ kẻ thù nào trong tầm của Cadence sẽ ngủ cho đến khi bị đánh thức bởi sát thương, Cadence ra khỏi tầm, hoặc bài ca kết thúc. Cadence có khả năng hồi phục thêm khi đang hát."
+		"modifier_cadence_sleeping"					"Đang Ngủ"
+		"modifier_cadence_sleep_aoe"				"Đang Hát Khúc Ru"
+		"LingerDuration_label"						"Thời Gian Tồn Tại"
 		"LingerDuration_postfix"					"s"
-		"DashDistance_label"						"Dash Distance"
-		"DashDistance_postfix"					"m"
+		"DashDistance_label"						"Khoảng Cách Lao"
+		"DashDistance_postfix"						"m"
 
-		//"cadence_ability_silencecontraptions"			"Silence Contraptions"
-		//"cadence_ability_silencecontraptions_quip"	"Start a melee brawl. No guns allowed."
-		//"cadence_ability_silencecontraptions_desc"	"Disarm yourself perform a long-range dash melee attack. For the duration of the song, you remain disarmed and your melee abilities apply a debuff that disarms and EMP's enemy targets."
+		"cadence_ability_silencecontraptions"			"Cơ Giới Tĩnh Lặng"
+		"cadence_ability_silencecontraptions_quip"		"Bắt đầu một cuộc ẩu đả cận chiến. Không được dùng súng."
+		"cadence_ability_silencecontraptions_desc"		"Tự giải giáp và thực hiện một đòn tấn công cận chiến tầm xa. Trong suốt thời gian bài ca, bạn vẫn bị giải giáp và các kỹ năng cận chiến của bạn sẽ áp dụng một hiệu ứng làm kẻ thù bị giải giáp và bị EMP."
 
-		//"citadel_ability_silencecontraptions_t3_desc"		"Melee also EMP's enemies"
-		//"BonusStamina_label"							"Bonus Stamina"
-		//"MeleeEMP_label"							"Enemies Silenced"
-		//"modifier_cadence_silence_contraptions_debuff"	"Silence Contraptions"
-		//"modifier_cadence_silence_contraptions"			"Silence Contraptions"
+		"citadel_ability_silencecontraptions_t3_desc"	"Đòn cận chiến cũng làm kẻ thù bị EMP"
+		"BonusStamina_label"							"Thể Lực Thêm"
+		"MeleeEMP_label"								"Kẻ Thù Bị Tĩnh Lặng"
+		"modifier_cadence_silence_contraptions_debuff"	"Cơ Giới Tĩnh Lặng"
+		"modifier_cadence_silence_contraptions"			"Cơ Giới Tĩnh Lặng"
 
+		"cadence_ability_grandfinale"				"Kết Cục Hoành Tráng"
+		"cadence_ability_grandfinale_quip"			"Dựng sân khấu, sau đó chiến đấu từ đó với các buff vũ khí."
+		"cadence_ability_grandfinale_desc"			"Dựng địa hình cao dưới chân Cadence. Đồng đội chiến đấu từ địa hình cao sẽ nhận được tăng tốc độ bắn và đạn nổ."
+		"ExplodeRadius_label"						"Bán Kính Nổ"
+		"ExplodeRadius_postfix"						"m"
+		"StageDuration_label"						"Thời Gian"
+		"StageDuration_postfix"						"s"
+		"modifier_cadence_grandfinale_buff"			"Kết Cục Hoành Tráng"
 
-		//"cadence_ability_grandfinale"				"Grand Finale"
-		//"cadence_ability_grandfinale_quip"		"Build a stage, then fight from it with weapon buffs."
-		//"cadence_ability_grandfinale_desc"		"Build high ground undernearth Cadence. Allies fighting from the high ground get a fire rate bonus and explosive bullets."
-		//"ExplodeRadius_label"						"Explosion Radius"
-		"ExplodeRadius_postfix"					"m"
-		"StageDuration_label"						"Duration"
-		"StageDuration_postfix"					"s"
-		//"modifier_cadence_grandfinale_buff"		"Grand Finale"
-
-		//"cadence_ability_crescendo"				"Crescendo"
-		//"cadence_ability_crescendo_quip"			"Encase enemies in glass then shatter it"
-		//"cadence_ability_crescendo_desc"			"Encase nearby enemies in glass in an increasing range over a short duration. Cadence then breaks the glass with her powerful voice, breaking any shields on the them, damaging them, and giving them massive bullet vulnerability for a duraiton after."
-
-		//"modifier_cadence_crescendo_in_aoe"		"Encased in Glass"
-		//"modifier_cadence_crescendo_post_aoe"		"Shattered"
+		"cadence_ability_crescendo"					"Cao Trào"
+		"cadence_ability_crescendo_quip"			"Bao bọc kẻ thù trong kính rồi phá vỡ nó"
+		"cadence_ability_crescendo_desc"			"Bao bọc kẻ thù gần đó trong kính với phạm vi tăng dần trong một khoảng thời gian ngắn. Cadence sau đó phá vỡ kính bằng giọng hát mạnh mẽ của mình, phá vỡ bất kỳ lá chắn nào trên chúng, gây sát thương và khiến chúng dễ bị tổn thương bởi đạn trong một khoảng thời gian sau đó."
+		
+		"modifier_cadence_crescendo_in_aoe"			"Bao Bọc Trong Kính"
+		"modifier_cadence_crescendo_post_aoe"		"Vỡ Tan"
 
 		//-----------------------------------------------------------------------------
 		// Hero McGinnis (previous names: // Engineer // Forge )
@@ -760,7 +759,7 @@
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
-		"citadel_ability_stomp"					"Kinetic Pulse"
+		"citadel_ability_stomp"					"Xung Động Kinh Hoàng"
 		"citadel_ability_stomp_quip"			"Phóng ra một xung địa chấn đẩy kẻ thù lên không trung"
 		"citadel_ability_stomp_desc"			"Phóng ra một xung năng lượng đẩy kẻ thù lên không trung."
 		"citadel_ability_stomp_t1_desc"			"Kẻ thù bị trúng sẽ bị <span class=\"highlight\">giảm tốc độ bắn và di chuyển</span> bởi <span class=\"highlight\">{s:SlowPercent}%</span> trong <span class=\"highlight\">{s:SlowDuration}s</span>."
@@ -774,7 +773,7 @@
 		"StompWidth_postfix"					"m"
 		"modifier_stomp_debuff"					"Hiệu Ứng Xấu Dậm"
 
-		"citadel_ability_void_sphere"				"Quantum Entanglement"
+		"citadel_ability_void_sphere"				"Liên Kết Lượng Tử"
 		"citadel_ability_void_sphere_quip"		"Chớp nhoáng xuất hiện và biến mất"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} tạm thời <span class=\"highlight\">biến mất vào hư không</span> và sau đó xuất hiện lại ở một khoảng cách ngắn. Khi xuất hiện lại, vũ khí của bạn sẽ được <span class=\"highlight\">nạp đạn</span> và có <span class=\"highlight\">tăng tốc độ bắn</span> cho băng đạn tiếp theo (Tối đa {s:FireRateBonusDurationMax}s). Có thể sử dụng với [{s:key_alt_cast}] để mang theo đồng minh gần đó và cho họ một nửa tăng tốc độ bắn."
 		"citadel_ability_void_sphere_t3_desc"		"Khi xuất hiện lại, <span class=\"highlight\">+{s:BonusClipSizePercent}%</span> đạn cơ bản"
@@ -801,7 +800,7 @@
 		"TechShieldDuration_label"				"Thời Gian Khiên"
 		"TechShieldDuration_postfix"			"s"
 
-		"citadel_ability_self_vacuum"			"Singularity"
+		"citadel_ability_self_vacuum"			"Vòng Tròn Lượng Tử"
 		"citadel_ability_self_vacuum_quip"		"Hút và làm choáng toàn bộ địch trong phạm vi"
 		"citadel_ability_self_vacuum_desc"		"Tạo ra một điểm kỳ dị trong tay bạn <span class=\"highlight\">hút kẻ thù gần đó và gây sát thương cho chúng</span>. Khi kết thúc, kẻ thù sẽ bị đẩy lên không trung."
 		"citadel_ability_self_vacuum_t3_desc"		"Điểm kỳ dị lấy <span class=\"highlight\">{s:DamagePercentHealth}%</span> Máu tối đa của kẻ thù mỗi giây."
@@ -810,7 +809,7 @@
 		"DamagePercentHealth_label"				"Phần Trăm Máu Gây Sát Thương"
 		"DamagePercentHealth_postfix"				"%"
 
-		"citadel_ability_nikuman"				"Rejuvenating Aurora"
+		"citadel_ability_nikuman"				"Ánh Sáng Tái Tạo"
 		"citadel_ability_nikuman_quip"			"Hồi phục cho bạn và những người xung quanh"
 		"citadel_ability_nikuman_desc"			"Trong khi kích hoạt, <span class=\"highlight\">hồi phục Máu theo thời gian</span> cho bạn và bất kỳ đồng minh nào gần đó. Lao không làm gián đoạn kích hoạt."
 		"citadel_ability_nikuman/modifier_nikuman"	"Hào Quang Tái Sinh"
@@ -1136,13 +1135,13 @@
 		//-----------------------------------------------------------------------------
 		// Bebop
 		//-----------------------------------------------------------------------------
-		"citadel_ability_uppercut"				"Exploding Uppercut"
+		"citadel_ability_uppercut"				"Cú Đấp Thép"
 		"citadel_ability_uppercut_quip"			"Đấm bay đối thủ"
 		"citadel_ability_uppercut_desc"			"Gây sát thương <span class=\"highlight\">Cận Chiến Nhẹ</span> cho các đơn vị gần đó và đẩy chúng <span class=\"highlight\">bay ngược lại</span>, gây <span class=\"highlight\">sát thương khu vực</span> tại nơi chúng rơi xuống. Không gây sát thương cho đồng minh."
 		"citadel_ability_uppercut_t2_desc"		"Khi Uppercut  địch, nhận <span class=\"highlight\">thời gian quay nhanh, gấp đôi phạm vi, và +{s:BuffBaseWeaponPct}% sát thương vũ khí</span> trong {s:UppercutBuffOnHit}s"
 		"citadel_ability_uppercut_t3_desc"		"Khi Uppercut  địch, đặt <span class=\"highlight\">thời gian hồi chiêu của Hook về 0</span> và ngay lập tức <span class=\"highlight\">+{s:ClipSizeBonus}% đạn</span> vào băng đạn hiện tại của bạn"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
-		"UppercutDamage_label"					"Sát Thương Uppercut"
+		"UppercutDamage_label"					"Sát Thương Đấm"
 		"LandingDamage_label"					"Sát Thương Khu Vực"
 		"OnLandDamageRadius_label"				"Bán Kính Rơi"
 		"OnLandDamageRadius_postfix"			"m"
@@ -1153,15 +1152,15 @@
 		//"UppercutBuffOnHit_label"				"Thời Gian Tăng Cường"
 		"UppercutBuffOnHit_postfix"				"s"
 
-		"citadel_ability_sticky_bomb"			"Sticky Bomb"
+		"citadel_ability_sticky_bomb"			"Gắn Bom"
 		"citadel_ability_sticky_bomb_quip"		"Gắn bom lên kẻ thù"
-		"citadel_ability_sticky_bomb_desc"		"Gắn một Quả Bom Dính lên mục tiêu gần đó, gây <span class=\"highlight\">sát thương nổ</span> sau một thời gian ngắn. <br>Nhận <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% sát thương bom</span> cho mỗi anh hùng địch bị trúng. <br>Giữ [{s:key_alt_cast}] để gắn một Quả Bom Dính lên chính bạn."
+		"citadel_ability_sticky_bomb_desc"		"Gắn một Quả Bom  lên mục tiêu gần đó, gây <span class=\"highlight\">sát thương nổ</span> sau một thời gian ngắn. <br>Nhận <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% sát thương bom</span> cho mỗi anh hùng địch bị trúng. <br>Giữ [{s:key_alt_cast}] để gắn một Quả Bom Dính lên chính bạn."
 		"modifier_citadel_sticky_bomb_attached"	"Bom trên bạn"
 		"citadel_ability_sticky_bomb_t3_desc"	"Khi Gắn, <span class=\"highlight\">vô hiệu hóa</span> mục tiêu trong <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"StunTargetOnExplode_label"				"Thời Gian Choáng"
 		"StunTargetOnExplode_postfix"				"s"
 
-		"citadel_ability_bebop_laser_beam"		"Hyper Beam"
+		"citadel_ability_bebop_laser_beam"		"Tia Sáng Siêu Năng"
 		"citadel_ability_bebop_laser_beam_quip"	"Phóng ra một tia laser gây sát thương lớn"
 		"citadel_ability_bebop_laser_beam_desc" "Tích tụ năng lượng laser để phóng ra một dòng năng lượng mạnh mẽ <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm chậm chuyển động và lao của kẻ thù</span>. Bạn sẽ di chuyển và xoay chậm trong thời gian này. Nếu kích hoạt trên không, bạn sẽ lơ lửng trong khi phóng tia."
 		"modifier_bebop_laser_beam"				"Tia Siêu Cấp"
@@ -1172,7 +1171,7 @@
 		"BeamWidth_postfix"						"m"
 
 
-		"citadel_ability_hook"					"Hook"
+		"citadel_ability_hook"					"Móc"
 		"citadel_ability_hook_quip"				"Kéo mục tiêu lại gần bạn"
 		"citadel_ability_hook_desc"				"Phóng ra một móc câu <span class=\"highlight\">bắt và kéo vào</span> anh hùng đầu tiên nó trúng và gây sát thương cho kẻ thù. Mục tiêu sẽ được đặt ở nơi bạn đang đối diện."
 		"citadel_ability_hook_t1_desc"			"Bebop gây <span class=\"highlight\">{s:BulletAmp}% sát thương đạn nhiều hơn</span> lên kẻ thù bị móc trong {s:BulletAmpDuration}s"
@@ -1181,7 +1180,7 @@
 		//"Citadel_ability_hook_on_hook"			"To Bebop:"
 		
 		//"modifier_hook_bonus_movespeed"			"Tốc Độ Di Chuyển Móc"
-		//"hook_modifier_slow"					"Móc Làm Chậm"
+		//"hook_modifier_slow"						"Móc Làm Chậm"
 		"hook_bullet_shield"						"Khiên Đạn"
 		//-----------------------------------------------------------------------------
 		// Akimbo
@@ -1391,7 +1390,7 @@
 		// Grey Talon (previous names: Archer / Orion)
 		// hero_archer
 		//-----------------------------------------------------------------------------
-		"ability_charged_shot"		"Charged Shot"
+		"ability_charged_shot"		"Viên Đạn Tích Điện"
 		"ability_charged_shot_quip"	"Tích tụ một phát bắn tầm xa"
 		"ability_charged_shot_desc"	"<span class=\"highlight\">Tích tụ một phát bắn mạnh mẽ</span> xuyên qua kẻ thù. Giữ [{s:ability_key}] hoặc [{s:iv_attack}] để giữ phát bắn."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Sát Thương</span>"
@@ -1399,7 +1398,7 @@
 		
 		"PowerJumpChannelTime_postfix"		"s"
 
-		"ability_power_jump"			"Rain of Arrows"
+		"ability_power_jump"			"Mưa Mũi Tên"
 		"ability_power_jump_quip"		"Nhảy cao lên không trung và bắn đa phát"
 		"ability_power_jump_desc"		"Phóng bạn lên cao, cho phép bạn lướt chậm. Trong khi ở trên không, bạn nhận <span class=\"highlight\">Sát Thương Vũ Khí</span> và <span class=\"highlight\">đa phát trên vũ khí của bạn</span>. Nhấn [{s:in_mantle}] để hủy lướt."
 		"ability_power_jump_t2_desc"	"Trong khi ở trên không, <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Sát Thương Vũ Khí và sát thương vũ khí áp dụng <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm di chuyển trong {s:SlowDuration}s"
@@ -1414,7 +1413,7 @@
 		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"Bị Làm Chậm"
 
 
-		"ability_immobilize_trap"			"Immobilizing Trap"
+		"ability_immobilize_trap"			"Bẫy Bất Động"
 		"ability_immobilize_trap_quip"		"Đặt bẫy làm bất động kẻ thù"
 		"ability_immobilize_trap_desc"		"<span class=\"highlight\">Ném ra một cái bẫy</span> bắt đầu tự trang bị. Khi đã trang bị, bẫy sẽ kích hoạt khi kẻ thù vào bán kính của nó, <span class=\"highlight\">làm bất động</span> và sau đó <span class=\"highlight\">làm chậm</span> chúng."
 		"modifier_citadel_immobilize_trap_immobilize"	"Bẫy Bất Động"
@@ -1422,7 +1421,7 @@
 		"ability_immobilize_trap_t3_desc"	"{s:hero_name} gây <span class=\"highlight\">+{s:BulletVulnerbility}%</span> sát thương đạn nhiều hơn lên kẻ thù bị trúng Bẫy Bất Động trong <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"ability_immobilize_trap/trap_debuff"	"Giảm Giáp Tinh Thần"
 
-		"ability_guided_arrow"		"Guided Owl"
+		"ability_guided_arrow"		"Cú Dẫn Đường"
 		"ability_guided_arrow_quip"	"Điều khiển cú của bạn để gây sát thương từ xa"
 		"ability_guided_arrow_desc"	"Sau {s:AbilityCastDelay}s thời gian thi triển, <span class=\"highlight\">phóng ra một con cú tinh thần mà bạn điều khiển</span> và nó sẽ nổ khi va chạm, <span class=\"highlight\">gây sát thương và làm choáng</span> kẻ thù. Giữ [{s:iv_attack}] để tăng tốc cú.<br>Nhấn [{s:in_mantle}] để thả điều khiển. Nhận <span class=\"highlight\">Sức Mạnh Tinh Thần vĩnh viễn</span> cho mỗi anh hùng địch bị giết bởi Cú Điều Khiển."
 		"ability_guided_arrow_t3_desc"	"Sau khi trúng, giết kẻ thù có dưới <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% Máu</span>"
@@ -1433,12 +1432,12 @@
 		//-----------------------------------------------------------------------------
 		// Lady Geist
 		//-----------------------------------------------------------------------------
-		"ability_blood_bomb"				"Essence Bomb"
+		"ability_blood_bomb"				"Bom Tinh Hoa"
 		"ability_blood_bomb_quip"			"Hy sinh một ít Máu để phóng ra một quả bom gây sát thương"
 		"ability_blood_bomb_desc"			"<span class=\"highlight\">Hy sinh một ít Máu của bạn</span> để phóng ra một quả bom <span class=\"highlight\">gây sát thương</span> sau một thời gian ngắn kích hoạt.<br>Loại sát thương tự gây là Tinh Thần và có thể giảm thiểu."
 		"ability_blood_bomb_t3_desc"	"Bom để lại một đống độc hại trên mặt đất, gây <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> của <span class=\"highlight\">sát thương gốc mỗi giây</span>, trong <span class=\"highlight\">{s:BloodSpillDuration}s</span>."
 		
-		"ability_life_drain"				"Life Drain"
+		"ability_life_drain"				"Hút Sinh Mệnh"
 		"ability_life_drain_quip"			"Đánh cắp Máu từ kẻ thù theo thời gian"
 		"ability_life_drain_desc"			"Tạo ra một dây nối <span class=\"highlight\">rút cạn Máu kẻ thù theo thời gian</span> và <span class=\"highlight\">hồi phục cho bạn</span>. Mục tiêu phải trong tầm nhìn và trong phạm vi tối đa để rút cạn. Bạn có thể bắn và sử dụng các kỹ năng khác trong khi rút cạn, nhưng tốc độ di chuyển của bạn bị giảm một nửa. Nhấn [{s:in_ability2}] để hủy."
 		"ability_life_drain/modifier_life_drain" "Rút Cạn Máu"
@@ -1458,7 +1457,7 @@
 		"HealFriendRadius_label"				"Phạm Vi Hồi Phục Đồng Minh"
 		"HealFriendRadius_postfix"			"m"
 
-		"ability_health_swap"					"Soul Exchange"
+		"ability_health_swap"					"Hoán Đổi Linh Hồn"
 		"ability_health_swap_quip"			"Hoán đổi Máu hiện tại của bạn với anh hùng địch"
 		"ability_health_swap_desc"			"<span class=\"highlight\">Hoán đổi mức Máu</span> với mục tiêu địch. Có một tỷ lệ phần trăm Máu tối thiểu mà kẻ thù có thể bị giảm xuống và một lượng Máu tối thiểu nhận được dựa trên Máu hiện tại của nạn nhân."
 		"ability_health_swap_t3_desc"			"Khi thi triển, <span class=\"highlight\">+{s:BonusFireRate}%</span> Tốc Độ Bắn và <span class=\"highlight\">+{s:TechResist}%</span> Kháng Tinh Thần trong {s:HealthSwapBuffDuration}s."
@@ -1482,7 +1481,7 @@
 		//"ability_death_tax_t1_desc"	"Giảm một trong những Hồi Chiêu của bạn đi <span class=\"highlight\">{s:CooldownReductionOnKill}s</span> khi một kẻ thù bị đánh dấu chết"
 		//"ability_death_tax_t3_desc"	"Tăng Sức Mạnh Tinh Thần lên <span class=\"highlight\">{s:TechPowerAmpBonus}</span> trong <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> khi một kẻ thù bị đánh dấu chết. Tích lũy lên đến <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> lần."
 	
-		"ability_blood_shards"				"Malice"
+		"ability_blood_shards"				"Ác Ý"
 		"ability_blood_shards_quip"			"Tích lũy tăng sát thương lên kẻ thù"
 		"ability_blood_shards_desc"			"<span class=\"highlight\">Hy sinh một ít Máu của bạn</span> để phóng ra các mảnh máu áp dụng một chồng Ác Ý. Mỗi chồng <span class=\"highlight\">làm chậm</span> nạn nhân và <span class=\"highlight\">tăng sát thương</span> họ nhận từ bạn. Hiệu ứng làm chậm giảm dần theo thời gian."
 		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} Máu Thành Sát Thương"

@@ -220,7 +220,7 @@
 		"StatDesc_TechLifesteal_postfix"				"%"
 		
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"Hút Máu Phép Thuật Trên Non-Heroes"
+		"StatDesc_TechLifestealNonHero"					"Hút Máu Phép Thuật Trên Không phải anh hùng"
 		
 		"StatDesc_BulletLifesteal_prefix"				"{s:sign}"
 		"StatDesc_BulletLifesteal"						"Hút Máu Đạn"
@@ -236,17 +236,17 @@
 		"Attribute_EWeaponAttribute_HeavyHitter"		"Đánh Nặng"
 		"Attribute_EWeaponAttribute_Projectile"			"Đạn"
 		
-		"WeaponPowerAttribute_Desc"						"%s1 cho bất kỳ tăng sát thương vũ khí nào"
-		"ArmorAttribute_Desc"							"%s1 cho bất kỳ tăng giáp đạn và Phép Thuật nào"
-		"HealthAttribute_Desc"							"%s1 cho bất kỳ tăng Máu và hồi phục Máu nào"
-		"TechDamageAttribute_Desc"						"%s1 cho bất kỳ tăng sát thương Phép Thuật nào"
-		"FireRateAttribute_Desc"						"%s1 cho bất kỳ tăng tốc độ bắn vũ khí nào"
+		"WeaponPowerAttribute_Desc"						"Tăng %s1 sát thương vũ khí"
+		"ArmorAttribute_Desc"							"Tăng %s1 giáp đạn và Phép Thuật"
+		"HealthAttribute_Desc"							"Tăng %s1 Máu và hồi phục Máu"
+		"TechDamageAttribute_Desc"						"Tăng %s1 sát thương Phép Thuật"
+		"FireRateAttribute_Desc"						"Tăng %s1 tốc độ bắn vũ khí"
 		
-		"WeaponPowerAttribute_Desc_0"					"không có thêm tăng sát thương vũ khí"
-		"ArmorAttribute_Desc_0"							"không có thêm tăng giáp đạn"
-		"HealthAttribute_Desc_0"						"không có thêm tăng Máu và hồi phục Máu"
-		"TechDamageAttribute_Desc_0"					"không có thêm tăng sát thương Phép Thuật"
-		"FireRateAttribute_Desc_0"						"không có thêm tăng tốc độ bắn vũ khí"
+		"WeaponPowerAttribute_Desc_0"					"Không tăng thêm sát thương vũ khí"
+		"ArmorAttribute_Desc_0"							"Không tăng thêm giáp đạn"
+		"HealthAttribute_Desc_0"						"Không tăng thêm Máu và hồi phục Máu"
+		"TechDamageAttribute_Desc_0"					"Không tăng thêm sát thương Phép Thuật"
+		"FireRateAttribute_Desc_0"						"Không tăng thêm tốc độ bắn vũ khí"
 
 		//-----------------------------------------------------------------------------
 		// END Stat desc
@@ -281,11 +281,11 @@
 		"Damage_label"								"Sát Thương"
 		"DamageBoosted_label"						"Sát Thương"
 		
-		"DamagePlayer_label"						"Sát Thương Đến Người Chơi"
+		"DamagePlayer_label"						"Sát Thương lên anh hùng"
 		
-		"DamageNPC_label"							"Sát Thương Đến Non-Players"
+		"DamageNPC_label"							"Sát Thương lên không phải anh hùng"
 		
-		"DetectionRadius_label"						"Bán Kính Phát Hiện"
+		"DetectionRadius_label"						"Bán Kính Bị Phát Hiện"
 		
 		//"MaxMines_label"							"Số Mìn Tối Đa"
 		
@@ -304,7 +304,7 @@
 		"MaxRadius_label"							"Bán Kính Tối Đa"
 		"MaxRadius_postfix"							"m"
 		
-		//"TackleRadius_label"						"Bán Kính Tackle"
+		"TackleRadius_label"						"Bán kính Tackle"
 		"TackleRadius_postfix"						"m"
 		
 		"MovementDamagePercent_label"				"Sát Thương"
@@ -315,8 +315,8 @@
 		"DPS_label"									"DPS"
 		
 		//"DPSIncrease_label"						"Tỷ Lệ Tăng Sát Thương"
-		"DPSMin_label"								"DPS Tối Thiểu"
-		"DPSMax_label"								"DPS Tối Đa"
+		"DPSMin_label"								"Sát thương mỗi giây Tối Thiểu"
+		"DPSMax_label"								"Sát thương mỗi giây Tối Đa"
 		
 		"DPS_Self_label"							"Tự Gây Sát Thương"
 		"DPS_Self_postfix"							"/giây"
@@ -402,7 +402,7 @@
 		"Distance_postfix"							"m"
 		//"Distance_label"							"Khoảng Cách"
 		
-		//"ChainDamageCoeff_postfix"				"% của sát thương súng"
+		//"ChainDamageCoeff_postfix"				"%  sát thương của súng"
 		//"ChainDamageCoeff_label"					"Sát Thương Chuỗi"
 		
 		"BulletArmor_prefix"						"{s:sign}"
@@ -600,10 +600,10 @@
 		"TotalHealthRegen_label"						"Tổng Hồi Máu"
 		
 		"StatusResistancePercent_postfix"				"%"
-		"StatusResistancePercent_label"					"Kháng Debuff"
+		"StatusResistancePercent_label"					"Kháng hiệu ứng bất lợi"
 		
 		"ActiveStatusResistancePercent_postfix"			"%"
-		"ActiveStatusResistancePercent_label"			"Giảm Debuff"
+		"ActiveStatusResistancePercent_label"			"Giảm hiệu ứng bất lợi"
 		
 		"StatusResistanceDuration_label"				"Thời Gian"
 		"StatusResistanceDuration_postfix"				"s"

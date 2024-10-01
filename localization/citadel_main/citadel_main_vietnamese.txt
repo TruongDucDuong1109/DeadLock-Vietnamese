@@ -2181,6 +2181,7 @@
 		"menu_leave_queue"							"Bỏ tìm trận"
 		"menu_clear_party_mode"						"Đổi chế độ"
 		"menu_leave_testing"						"Rời sandbox"
+		"menu_bot_custom"							"Trận Đấu Tùy Chỉnh"
 		"menu_resume"								"Tiếp tục"
 		"menu_abandon"								"Bỏ Trận"
 		"menu_leave"								"Rời trận"
@@ -2197,7 +2198,9 @@
 		"menu_training"								"Luyện tập"
 		"menu_browseshop"							"Tìm vật phẩm"
 		"menu_social"								"Đội"
+		
 		"Citadel_Exit_Game_Confirm"					"Bạn có muốn thoát Deadlock?"
+		
 		"menu_exit"									"Thoát game"
 		"Citadel_Confirm_Discord"					"Bạn sẵn sàng tạo link mời Discord chứ? Link chỉ có hạn sử dụng 2 tiếng và bạn sẽ không thể tạo được nữa."
 		"Citadel_Confirm_Discord_Create"			"Tạo link mời Discord"
@@ -2205,6 +2208,7 @@
 		"Citadel_Confirm_Discord_Created_Title"		"Không thể tạo link mời Discord"
 		"Citadel_Confirm_Discord_InMatch_Title"		"Không thể nhận bây giờ"
 		"Citadel_Confirm_Discord_InMatch_Body"		"Hãy lấy link mời Discord sau khi bạn rời trận hoặc rời đội."
+		
 
 		"menu_exit_db_page"							"Quay lại"
 		"menu_settings"								"Cài đặt"
@@ -2243,6 +2247,7 @@
 		"menu_play_matchmaking"						"Tìm một trận tiêu chuẩn để đấu với nhiều người chơi khác."
 		"menu_learn_incomplete"						"Chưa hoàn thành"
 		"menu_learn_completed"						"Đã hoàn thành"
+		"menu_play_custom_game_desc"				"Tạo hoặc tham gia một trận đấu tùy chỉnh cho tối đa 12 người chơi"
 
 		"item_info_abilities"						"Kĩ năng"
 		"item_info_flex_slots"						"FLEX SLOTS"
