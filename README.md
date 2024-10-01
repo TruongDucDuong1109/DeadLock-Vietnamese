@@ -2,6 +2,10 @@
 
 Repo này chứa bản dịch tiếng Việt đang phát triển cho [Deadlock](https://store.steampowered.com/app/1422450), một dự án game đang trong quá trình phát triển của [Valve](https://valvesoftware.com/). Dành cho mọi người muốn chơi game bằng tiếng Việt.
 
+## Khung Readme
+
+Khung được lấy từ [đây](https://github.com/Barnacl437/deadlock-vietnamese), Cảm ơn Barnacl437 đã đóng góp bản dịch này cho ae cộng đồng
+
 ## hiện giờ...
 
 Tạm thời đã hoàn thành phần dịch cơ bản để các bạn có thể trải nghiệm game một cách tốt hơn, còn một số lỗi và phần dịch chưa được tự nhiên , mình sẽ update liên tục.
