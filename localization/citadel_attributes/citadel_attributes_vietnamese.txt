@@ -1797,6 +1797,9 @@
 		"BonusSpiritPerKill_prefix"					"{s:sign}"
 		//"BonusSpiritPerKill_label"					"Sức Mạnh Phép Thuật Thêm Mỗi Lần Giết"
 		
+
+		"ExplodeDamage_label"				"Sát Thương Nổ"
+
 		//"MaxClipBonus_label"						"Đạn Tối Đa Thêm"
 		
 		"SummonDuration_label"						"Thời Gian Triệu Hồi"

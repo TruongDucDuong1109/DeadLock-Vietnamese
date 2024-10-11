@@ -592,9 +592,14 @@
 		"SpiritDamage_label"	"Sát Thương Phép Thuật"
 		"modifier_acolytes_glove_triggered"	"Đòn Tấn Công Phép Thuật"
 		
-		//Tấn Công Cận Chiến
-		"upgrade_melee_charge_desc"	"Tăng khoảng cách tấn công <span class=\"highlight\">Cận Chiến Nặng</span> của bạn. Khi bạn thực hiện một đòn <span class=\"highlight\">Cận Chiến Nặng</span> chống lại kẻ thù, vũ khí của bạn sẽ <span class=\"highlight\">nạp đạn ngay lập tức</span>."
-		
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Đòn <span class=\"highlight\">Cận Chiến Nặng</span> tiếp theo của bạn vào kẻ thù <span class=\"highlight\">gây thêm sát thương</span> và hoặc <span class=\"highlight\">nạp lại vũ khí ngay lập tức</span> hoặc cho bạn tối đa <span class=\"highlight\">+100% đạn thưởng</span>. <br>Chỉ kích hoạt khi Đạn Thưởng chưa đầy."
+		"MeleeDistanceScale_label"				"Khoảng Cách Cận Chiến Nặng"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Sát Thương Cận Chiến Nặng Cộng Thêm"
+		"BonusHeavyMeleeDamage_postfix"			"%"
+
 		//Băng Quấn Bùa Chú
 		"upgrade_charmed_wraps_desc"	"Các kỹ năng của bạn được <span class=\"highlight\">giảm thời gian hồi chiêu</span> khi bạn thực hiện một đòn <span class=\"highlight\">cận chiến nặng</span> chống lại một anh hùng (hoặc <span class=\"highlight\">hai đòn cận chiến nhẹ</span> trong vòng {s:LightMeleeTimeWindow}s)."
 		
@@ -735,10 +740,13 @@
 		//Hút Máu
 		"upgrade_damage_recycler_desc"	"Giảm hiệu quả của <span class=\"highlight\">giảm hồi phục</span> áp dụng bởi kẻ thù."
 		
-		//Tái Sinh
-		"upgrade_personal_rejuvenator_desc"	"Hồi sinh anh hùng tại vị trí họ chết."
-		"RespawnDelay_label"	"Thời Gian Hồi Sinh"
-		"RespawnDelay_postfix"	"s"
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Hồi sinh anh hùng tại vị trí họ đã chết."
+		//"RespawnDelay_label"					"Thời Gian Hồi Sinh"
+		"RespawnDelay_postfix"					"s"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"Thời Gian Hồi Sinh Tăng"
+		"SpawnTimePenalty_postfix"				"s"
 		
 		//Đòn Tấn Công Bóng Ma
 		"upgrade_phantom_strike_desc"	"<span class=\"highlight\">Dịch Chuyển</span> đến kẻ thù, áp dụng <span class=\"highlight\">Vô Hiệu Hóa</span>, <span class=\"highlight\">Làm Chậm</span>, và gây <span class=\"highlight\">sát thương</span>."
