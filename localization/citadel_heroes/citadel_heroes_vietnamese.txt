@@ -457,7 +457,7 @@
 
 		"citadel_ability_chrono_kinetic_carbine"		"Kinetic Carbine"
 			"citadel_ability_chrono_kinetic_carbine_quip"	"Tích điện vũ khí của bạn để gây sát thương cao và dừng thời gian"
-		"citadel_ability_chrono_kinetic_carbine_desc"	"Bắt đầu tích điện vũ khí của bạn và nhận <span class=\"highlight\">tăng tốc độ di chuyển</span> khi nó được tích điện đầy đủ. Phát bắn tiếp theo của bạn sẽ giải phóng năng lượng, gây <span class=\"highlight\">sát thương tinh thần</span> và áp dụng <span class=\"highlight\">dừng thời gian</span> lên kẻ địch bị trúng. Sát thương gây ra là sự khuếch đại của sát thương vũ khí hiện tại của bạn. <br><br>Bạn có thể làm chậm thời gian cho bản thân bằng cách nhấn [{s:iv_attack2}] khi có sẵn phát bắn được cường hóa."
+		"citadel_ability_chrono_kinetic_carbine_desc"	"Bắt đầu tích điện vũ khí của bạn và nhận <span class=\"highlight\">tăng tốc độ di chuyển</span> khi nó được tích điện đầy đủ. Phát bắn tiếp theo của bạn sẽ giải phóng năng lượng, gây <span class=\"highlight\">Sát Thương Phép Thuật</span> và áp dụng <span class=\"highlight\">dừng thời gian</span> lên kẻ địch bị trúng. Sát thương gây ra là sự khuếch đại của sát thương vũ khí hiện tại của bạn. <br><br>Bạn có thể làm chậm thời gian cho bản thân bằng cách nhấn [{s:iv_attack2}] khi có sẵn phát bắn được cường hóa."
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown}s Hồi Chiêu và +{s:SpeedBoostDuration}s Thời Gian Tăng Tốc"
 		"citadel_ability_chrono_kinetic_carbine_charged"	"ĐÃ TÍCH ĐIỆN!"
 		"citadel_ability_chrono_kinetic_carbine_expiring"	"SẮP HẾT HẠN"
@@ -547,7 +547,7 @@
 		
 		"FlameAuraRadius_label"			"Chiều Rộng Vệt Lửa"
 		"FlameAuraRadius_postfix"			"m"
-		"FlameDashDebuff_label"			"Sát Thương Tinh Thần Thêm"
+		"FlameDashDebuff_label"			"Sát Thương Phép Thuật Thêm"
 		"FlameDashDebuff_postfix"		"%"
 		"GroundFlameDuration_label"		"Thời Gian Vệt Lửa"
 		"GroundFlameDuration_postfix"		"s"
@@ -569,7 +569,7 @@
 		"ability_afterburn"			"Afterburn"
 		"ability_afterburn_quip"	"Bắn kẻ thù để đốt cháy chúng"
 		"ability_afterburn_desc"	"Đạn của bạn tích tụ để <span class=\"highlight\">áp dụng hiệu ứng đốt cháy lên kẻ thù</span>. Đạn và kỹ năng của {s:hero_name} sẽ <span class=\"highlight\">làm mới</span> thời gian hiệu ứng."
-		"ability_afterburn_t1_desc"	"Nạn nhân gây <span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span> sát thương tinh thần."
+		"ability_afterburn_t1_desc"	"Nạn nhân gây <span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span> Sát Thương Phép Thuật."
 		
 		"modifier_citadel_afterburn_buildup"	"Đang Đốt Cháy"
 		"BuildUpBulletPercentPerHit_label"		"Tích Tụ Mỗi Viên Đạn"
@@ -616,14 +616,14 @@
 		//"FaradayCageDuration_label" "Cage Duration"
 
 		//"ability_tempest_tesla_coil"		"Tesla Coil"
-		//"ability_tempest_tesla_coil_desc"	"Build a Tesla Coil that builds a charge on itself then discharges on the closest enemy within range. Holds the charge and builds overcharge if no enemies are in range. When Tempest fights in range of the coil, his gun is amp'd and his bullets deal bonus spirit damage."
+		//"ability_tempest_tesla_coil_desc"	"Build a Tesla Coil that builds a charge on itself then discharges on the closest enemy within range. Holds the charge and builds overcharge if no enemies are in range. When Tempest fights in range of the coil, his gun is amp'd and his bullets deal bonus Sát Thương Phép Thuật."
 		//"TeslaCoilHealth_label"			"Tesla Coil Health"
 		//"TeslaCoilLifetime_label"			"Tesla Coil Lifetime"
 		//"DischargeRadius_label"			"Discharge Radius"
 		"DischargeRadius_postfix"			"m"
 		//"OverchargePct_label"			"Overcharge"
 		"OverchargePct_postfix"		"%"
-		//"BonusTechDamage_label"		"Bonus Spirit Damage"
+		//"BonusTechDamage_label"		"Bonus Sát Thương Phép Thuật"
 
 		//"ability_tempest_weathermaker"		"Weathermaker"
 		//"ability_tempest_weathermaker_desc"	"A ray of sun shines on each enemy hero anywhere on the map. Moments later, any enemy that did not find cover is struck by a powerful bolt of lightning, dealing damage to them and revealing them through walls for a duration. Can pass through Faraday Cage."
@@ -732,7 +732,7 @@
 		"ability_stacking_damage_desc"	"Bắn vào mục tiêu <span class=\"highlight\">tăng sát thương đạn của bạn lên mục tiêu đó</span>. Nhận một <span class=\"highlight\">chồng</span> mỗi lần trúng đạn, hai nếu trúng đầu."
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"Chăm Chú"
 		
-		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> sát thương tinh thần và <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm trong {s:SlowDuration}s lên mục tiêu mỗi <span class=\"highlight\">{s:ProcDamageStackCount}</span> chồng"
+		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> Sát Thương Phép Thuật và <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm trong {s:SlowDuration}s lên mục tiêu mỗi <span class=\"highlight\">{s:ProcDamageStackCount}</span> chồng"
 		"ability_stacking_damage_t2_desc" "<span class=\"highlight\">+{s:MaxStacks}</span> Chồng Tối Đa và <span class=\"highlight\">+{s:AbilityDuration}s</span> Thời Gian"
 		
 		"DamageBonusFixedPerStack_label"					"Sát Thương Vũ Khí"
@@ -837,7 +837,7 @@
 		//"modifier_summon_spirits"						"Energy Spirits"
 		//"SpiritCount_label"						"Energy Spirits"
 		//"citadel_ability_zealot_summon_spirits_t1_desc"		"<span class=\"highlight\">+{s:SpiritBulletArmor} Bullet Armor</span> while there is a spirit active."
-		//"citadel_ability_zealot_summon_spirits_t3_desc"		"<span class=\"highlight\">+{s:SpiritLifeSteal}% Life Steal</span> on Energy Spirit damage."
+		//"citadel_ability_zealot_summon_spirits_t3_desc"		"<span class=\"highlight\">+{s:SpiritLifeSteal}% Life Steal</span> on Energy Sát Thương Phép Thuật."
 		//"SpiritSpinDamage_label"						"Damage when spinning"
 		//"SpiritShotDamage_label"						"Damage when shot"
 
@@ -1117,7 +1117,7 @@
 		//"BonusTechPower_label"				"Sức Mạnh Tinh Thần khi Đi Đường"
 		//"IcePathShardRadius_label"			"Chiều Rộng Đường"
 		"IcePathShardRadius_postfix"			"m"
-		"BonusTechDamagePercent_label"		"Sát Thương Tinh Thần Thêm"
+		"BonusTechDamagePercent_label"		"Sát Thương Phép Thuật Thêm"
 		"BonusTechDamagePercent_postfix"		"%"
 		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"Đường Băng"
 		"AbilityButtonHint_CancelIcePath"	"Hủy Đường Băng"
@@ -1185,7 +1185,7 @@
 		// Akimbo
 		//-----------------------------------------------------------------------------
 		//"akimbo_chargedshot"		"Overload"
-		//"akimbo_chargedshot_desc"	"{s:hero_name} charges gun and deals <span class=\"highlight\">Spirit Damage</span> to nearby enemies in front."
+		//"akimbo_chargedshot_desc"	"{s:hero_name} charges gun and deals <span class=\"highlight\">Sát Thương Phép Thuật</span> to nearby enemies in front."
 		//"akimbo_chargedshot_t1_desc"	"<span class=\"highlight\">+{s:BonusMoveSpeed}m/s</span> move speed while charging."
 		//"akimbo_chargedshot_t3_desc"	"Reduces enemy bullet armor by <span class=\"highlight\">{s:BulletArmorReduction}</span> for <span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>"
 
@@ -1256,7 +1256,7 @@
 
 		//"ability_target_practice"			"Thực Hành Mục Tiêu"
 		//"ability_target_practice_quip"		"Tập trung bắn vào một mục tiêu để giành lợi thế"
-		//"ability_target_practice_desc"		"Khi kích hoạt, phát bắn súng tiếp theo của bạn sẽ chọn một Anh Hùng kẻ địch làm mục tiêu. Bắn vào chúng <span class=\"highlight\">{s:ShotsToProc} lần</span> để gây sát thương tinh thần bùng nổ. Mỗi phát vào đầu sẽ tăng cường sát thương bùng nổ."
+		//"ability_target_practice_desc"		"Khi kích hoạt, phát bắn súng tiếp theo của bạn sẽ chọn một Anh Hùng kẻ địch làm mục tiêu. Bắn vào chúng <span class=\"highlight\">{s:ShotsToProc} lần</span> để gây Sát Thương Phép Thuật bùng nổ. Mỗi phát vào đầu sẽ tăng cường sát thương bùng nổ."
 		//"ability_target_practice_t3_desc"		"Đạn của bạn giảm <span class=\"highlight\">Kháng Đạn của mục tiêu {s:BulletArmorReduction}%</span> trong {s:DebuffDuration}s"
 		//"BonusPerHeadshot_label"				"Thưởng Mỗi Phát Vào Đầu"
 		"BonusPerHeadshot_prefix"				"+"
@@ -1275,7 +1275,7 @@
 
 		//"ability_astro_rifle"					"Xạ Thủ"
 		//"ability_astro_rifle_quip"			"Các Phát Bắn Chính Xác làm tăng sát thương"
-		//"ability_astro_rifle_desc"			"Trang bị một khẩu Súng gây sát thương tinh thần lên các Anh Hùng và cung cấp cho {s:hero_name} một phần thưởng sát thương tích lũy chống lại họ."
+		//"ability_astro_rifle_desc"			"Trang bị một khẩu Súng gây Sát Thương Phép Thuật lên các Anh Hùng và cung cấp cho {s:hero_name} một phần thưởng sát thương tích lũy chống lại họ."
 		//"ability_astro_rifle_t1_desc"			"Áp dụng <span class=\"highlight\">{s:SlowPercent}% làm chậm</span> khi bắn trúng. Kéo dài {s:SlowDurationPerStack}s cho mỗi tích lũy."
 		//"ability_astro_rifle_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> Sát thương với độ tăng cường tốt hơn."
 		//"ability_astro_rifle_desc_debuff"		"Tổn Thương Dễ Bị"
@@ -1540,9 +1540,9 @@
 		
 		"citadel_ability_hornet_leap"			"Flight"
 		"citadel_ability_hornet_leap_quip"		"Bay lên và tăng cường vũ khí của bạn"
-		"citadel_ability_hornet_leap_desc"		"Nhảy lên không trung và <span class=\"highlight\">bay</span>. Trong khi bay, vũ khí của bạn gây <span class=\"highlight\">sát thương tinh thần bổ sung</span>."
+		"citadel_ability_hornet_leap_desc"		"Nhảy lên không trung và <span class=\"highlight\">bay</span>. Trong khi bay, vũ khí của bạn gây <span class=\"highlight\">Sát Thương Phép Thuật bổ sung</span>."
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> đạn cơ bản khi bay"
-		"MagicDamagePerBullet_label"				"Sát Thương Tinh Thần Mỗi Viên Đạn"
+		"MagicDamagePerBullet_label"				"Sát Thương Phép Thuật Mỗi Viên Đạn"
 		
 		//"modifier_citadel_hornetleap"			"Nhảy Vindicta"
 		
@@ -1833,7 +1833,7 @@
 		//"synth_blitz"					"Blitz"
 		//"synth_blitz_quip"			"Đạn của bạn bắn nhanh hơn và áp dụng tăng cường tinh thần"
 		//"synth_blitz_desc"			"Nhận <span class=\"highlight\">tốc độ bắn nhanh</span> và <span class=\"highlight\">hút máu đạn</span> cho một loạt đạn ngắn."
-		//"synth_blitz_t1_desc"			"Mỗi phát bắn Blitz tăng cường sát thương tinh thần của bạn lên mục tiêu {s:TechAmpPerBullet}% trong {s:TechAmpLinger}s"
+		//"synth_blitz_t1_desc"			"Mỗi phát bắn Blitz tăng cường Sát Thương Phép Thuật của bạn lên mục tiêu {s:TechAmpPerBullet}% trong {s:TechAmpLinger}s"
 		//"synth_blitz_t3_desc"			"+{s:FastFireBullets} Phát Bắn Nhanh và +{s:MaxStacks} Chồng Tối Đa"
 		//"TechAmpPerBullet_label"		"Tăng Cường Tinh Thần Mỗi Phát Bắn"
 		"TechAmpPerBullet_postfix"	"%"
@@ -2758,7 +2758,7 @@
 		// Hero Viper
 		//-----------------------------------------------------------------------------
 		"ability_viper_hookdagger" "Lưỡi dao móc"
-		"ability_viper_hookdagger_desc" "Ném một lưỡi dao, gây <span class=\"highlight_spirit\">Spirit Damage</span>. Lưỡi dao sau đó quay lại, gây <span class=\"highlight_spirit\">Spirit Damage</span> lần nữa và áp dụng hiệu ứng <span class=\"highlight\">Chậm</span>."
+		"ability_viper_hookdagger_desc" "Ném một lưỡi dao, gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. Lưỡi dao sau đó quay lại, gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span> lần nữa và áp dụng hiệu ứng <span class=\"highlight\">Chậm</span>."
 		"ability_viper_hookdagger_t3_desc" "Ném thêm <span class=\"highlight\">2 Lưỡi dao</span>"
 		"ability_viper_hookdagger_quip" "Ném một lưỡi dao quay trở lại với bạn"
 
@@ -2768,7 +2768,7 @@
 		"ability_viper_snakedash_quip" "Tăng cường độ linh hoạt của bạn khi trượt"
 
 		"ability_viper_venom" "Nọc độc chết người"
-		"ability_viper_venom_desc" "Tiêm nọc độc vào mục tiêu. Sau một thời gian, nọc độc sẽ phát tác, gây <span class=\"highlight_spirit\">Spirit Damage</span>. Sát thương sẽ tăng theo lượng máu còn thiếu của mục tiêu.<br><br><span class=\"diminish\">Tái áp dụng Nọc độc sẽ làm mới thời gian.</span>"
+		"ability_viper_venom_desc" "Tiêm nọc độc vào mục tiêu. Sau một thời gian, nọc độc sẽ phát tác, gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. Sát thương sẽ tăng theo lượng máu còn thiếu của mục tiêu.<br><br><span class=\"diminish\">Tái áp dụng Nọc độc sẽ làm mới thời gian.</span>"
 		"VenomMinDamage_label" "Sát thương tối thiểu của Nọc độc"
 		"VenomMaxDamage_label" "Sát thương tối đa của Nọc độc"
 		"VenomDuration_label" "Thời gian tích lũy Nọc độc"
@@ -2781,7 +2781,7 @@
 		"ability_viper_venom_quip" "Tiêm nọc độc chết người vào kẻ thù của bạn"
 
 		"ability_viper_ult" "Hóa đá"
-		"ability_viper_ult_desc" "Tạo một khu vực bị hex trên mặt đất. Sau một thời gian, TẤT CẢ các đơn vị trong khu vực hình trụ sẽ bị <span class=\"highlight\">Hóa đá</span>. Kẻ thù cũng chịu <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br><span class=\"diminish\">Các đơn vị bị Hóa đá chặn tất cả sát thương, nhưng không thể thực hiện hành động.<br>Các đơn vị bị Hóa đá sẽ thoát ra sau khi chặn đủ sát thương.</span>"
+		"ability_viper_ult_desc" "Tạo một khu vực bị hex trên mặt đất. Sau một thời gian, TẤT CẢ các đơn vị trong khu vực hình trụ sẽ bị <span class=\"highlight\">Hóa đá</span>. Kẻ thù cũng chịu <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>.<br><br><span class=\"diminish\">Các đơn vị bị Hóa đá chặn tất cả sát thương, nhưng không thể thực hiện hành động.<br>Các đơn vị bị Hóa đá sẽ thoát ra sau khi chặn đủ sát thương.</span>"
 		"PetrifyDuration_label" "Thời gian Hóa đá"
 		"PetrifyDuration_postfix" "s"
 		"PetrifyDamageBreakThreshold_label" "Ngưỡng chặn tối đa của Hóa đá"
@@ -2796,44 +2796,43 @@
 		// Hero Magician
 		//-----------------------------------------------------------------------------
 		
-		"ability_magician_magicbolt" "Tia Ma Thuật Quấy Rối"
-		"ability_magician_magicbolt_desc" "Bắn một tia ma thuật gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span> và áp dụng <span class=\"highlight\">Chậm Dần Phai</span>. <br><br>Nhấn <span class=\"highlight\">[{s:in_ability1}]</span> để <span class=\"highlight\">chuyển hướng</span> tia tới chỗ bạn nhắm."
+		"ability_magician_magicbolt" "Xung Điện Quái Dị"
+		"ability_magician_magicbolt_desc" "Bắn ra một xung điện ma thuật gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span> và áp dụng hiệu ứng <span class=\"highlight\">Chậm Dần</span>. <br><br>Nhấn <span class=\"highlight\">[{s:in_ability1}]</span> để <span class=\"highlight\">chuyển hướng</span> xung điện về phía điểm ngắm của bạn."
 		"ProjectileRedirectCount_label" "Số Lần Chuyển Hướng Tối Đa"
 		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} Số Lần Chuyển Hướng Tối Đa và +{s:Damage} Sát Thương"
-		"ability_magician_magicbolt_quip" "Phóng một tia ma thuật hướng dẫn"
+		"ability_magician_magicbolt_quip" "Phóng ra một xung điện ma thuật có định hướng"
 
-		"citadel_ability_magewalk" "Đánh Lừa"
-		"citadel_ability_magewalkk_desc" "Tạm thời trở nên <span class=\"highlight\">Không Thể Nhắm</span> trước khi xuất hiện tại địa điểm bạn muốn. Những <span class=\"highlight\">{s:EmpoweredAttackCount} đòn tấn công đầu tiên</span> của bạn gây thêm <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. <br><br><span class=\"highlight\">[Cast]</span> Xuất hiện tại vị trí mục tiêu.<br><span class=\"highlight\">[Alt-Cast]</span> Xuất hiện tại chỗ.</span><br><span class=\"diminish\">Kẻ địch sẽ không biết bạn đã thực hiện cast nào.</span>"
+		"citadel_ability_magewalk" "Mưu Mẹo"
+		"citadel_ability_magewalkk_desc" "Tạm thời trở thành <span class=\"highlight\">Không Thể Nhắm</span> trước khi xuất hiện ở vị trí đích. Những <span class=\"highlight\">{s:EmpoweredAttackCount} đòn tấn công đầu tiên</span> của bạn gây thêm <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. <br><br><span class=\"highlight\">[Cast]</span> Xuất hiện tại vị trí mục tiêu.<br><span class=\"highlight\">[Alt-Cast]</span> Xuất hiện tại chỗ.</span><br><span class=\"diminish\">Kẻ thù sẽ không biết bạn đã thực hiện phép nào.</span>"
 		"MageTime_label" "Thời Gian Không Thể Nhắm"
 		"MageTime_postfix" "s"
 		"modifier_magewalk_empoweredattacks" "Thẻ May Mắn"
 
-		"ability_magician_cloneturret" "Trợ Thủ Huyền Ảo"
-		"ability_magician_cloneturret_desc" "Gọi một <span class=\"highlight\">Trợ Thủ</span> tại vị trí mục tiêu. Họ bắt chước các đòn tấn công của bạn, ném những lá bài gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. <br><br>Nhấn <span class=\"highlight\">[{s:in_ability2}]</span> để hoán đổi vị trí với Trợ Thủ của bạn."
-		"ability_magician_cloneturret_t3_desc" "Trợ Thủ cũng bắt chước Tia Ma Thuật Quấy Rối"
-		"ability_magician_cloneturret_quip" "Gọi trợ thủ trung thành của bạn"
-
+		"ability_magician_cloneturret" "Trợ Thủ Bóng Ma"
+		"ability_magician_cloneturret_desc" "Gọi ra một <span class=\"highlight\">Trợ Thủ</span> tại vị trí mục tiêu. Họ bắt chước các đòn tấn công của bạn, ném ra những lá bài gây <span class=\"highlight_spirit\">Sát Thương Phép Thuật</span>. <br><br>Nhấn <span class=\"highlight\">[{s:in_ability2}]</span> để hoán đổi vị trí với Trợ Thủ của bạn."
+		"ability_magician_cloneturret_t3_desc" "Trợ Thủ cũng bắt chước Xung Điện Quái Dị"
+		"ability_magician_cloneturret_quip" "Gọi ra trợ thủ trung thành của bạn"
 
 		"ability_magician_animalcurse" "Lời Nguyền Thỏ"
-		"ability_magician_animalcurse_desc" "Nguyền rủa một mục tiêu, biến họ thành một <span class=\"highlight\">Con Thỏ</span>. Những con thỏ nhỏ hơn và di chuyển nhanh hơn, nhưng nhận thêm sát thương và không thể thực hiện hầu hết các hành động.<br><span class=\"highlight\">[Cast]</span> Nguyền rủa hero mục tiêu.<br><span class=\"highlight\">[Alt-Cast]</span> Nguyền rủa chính bạn.<br><span class=\"diminish\">Lời nguyền không ngắt quãng các khả năng.</span>"
-		"ability_magician_animalcurse/animalhex_curse_modifier" "Đã Bị Nguyền Rủa!"
-		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Nguyền rủa</span> các kẻ thù gần đó trong <span class=\"highlight\">nửa thời gian</span>."
+		"ability_magician_animalcurse_desc" "Nguyền một mục tiêu, biến họ thành một <span class=\"highlight\">Con Thỏ</span>. Những con thỏ nhỏ hơn và di chuyển nhanh hơn, nhưng nhận thêm sát thương và không thể thực hiện hầu hết các hành động.<br><span class=\"highlight\">[Cast]</span> Nguyền mục tiêu là hero.<br><span class=\"highlight\">[Alt-Cast]</span> Nguyền chính bạn.<br><span class=\"diminish\">Lời Nguyền không làm gián đoạn khả năng.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Bị Nguyền!"
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Nguyền</span> các kẻ thù xung quanh trong <span class=\"highlight\">nửa thời gian</span>."
 		"DamageAmpPercentage_label" "Tăng Sát Thương"
 		"DamageAmpPercentage_postfix" "%"
-		"ability_magician_animalcurse_quip" "Biến kẻ thù của bạn thành một con thỏ"
+		"ability_magician_animalcurse_quip" "Biến kẻ thù thành một con thỏ"
 
 		"ability_magician_stage" "Khán Giả Bị Bắt"
-		"ability_magician_stage_desc" "Chọn một kẻ thù. Bạn và kẻ thù được liên kết trên Sân Khấu, không thể rời khỏi. Tất cả các nhân vật khác đều bị đẩy ra ngoài bán kính."
+		"ability_magician_stage_desc" "Nhắm vào một kẻ thù. Bạn và kẻ thù đó bị buộc trên Sân Khấu, không thể rời đi. Tất cả các nhân vật khác bị đẩy ra ngoài bán kính."
 
 		"ability_magician_shadowclone" "Bản Sao Vĩ Đại!"
-		"ability_magician_shadowclone_desc" "Tạo một <span class=\"highlight\">Bản Sao</span> của chính bạn với máu và sát thương giảm. Khi bản sao chết hoặc hết thời gian, nó sẽ phát nổ, gây Sát Thương Phép Thuật.<br><br><span class=\"diminish\">Bản Sao không thể sử dụng khả năng Tối Thượng của chúng.</span>"
-		"CloneHealthPercentage_label" "máu Bản Sao"
+		"ability_magician_shadowclone_desc" "Tạo ra một <span class=\"highlight\">Bản Sao</span> của chính bạn với lượng máu và sát thương giảm. Khi bản sao chết hoặc hết thời gian, nó sẽ phát nổ, gây Sát Thương Phép Thuật.<br><br><span class=\"diminish\">Bản Sao không thể sử dụng khả năng tối thượng của họ.</span>"
+		"CloneHealthPercentage_label" "Máu Bản Sao"
 		"CloneHealthPercentage_postfix" "%"
 		"CloneDamagePercentage_label" "Sát Thương Bản Sao"
 		"CloneDamagePercentage_postfix" "%"
 		"CloneLifetime_label" "Thời Gian Tồn Tại Bản Sao"
 		"CloneLifetime_postfix" "s" 
-		"ability_magician_shadowclone_t3_desc" "Bản Sao có thể sử dụng <span class=\"highlight\">Khả Năng Tối Thượng</span> của nó."
+		"ability_magician_shadowclone_t3_desc" "Bản Sao có thể sử dụng <span class=\"highlight\">Khả Năng Tối Thượng</span>."
 
 
 		//-----------------------------------------------------------------------------
@@ -2963,6 +2962,9 @@
 		"hero_tengu_role"				"Tạo ra một cặp đôi quyền lực với một đồng minh may mắn"
 		"hero_mirage_role"				"Canh thời gian bắn và bắt các mục tiêu đang chạy trốn"
 		"hero_synth_role"				"Xâm nhập và phá rối hàng sau"
+		"hero_viper_role"				"Trườn vào và ám sát kẻ thù."
+		"hero_magician_role"			"Đánh lạc hướng và nguyền rủa kẻ thù."
+		"hero_slork_role"				"Lao vào trận chiến rồi ẩn nấp để hồi phục."
 
         //"hero_akimbo_playstyle"         "Akimbo xuất sắc trong chiến đấu tầm gần, nơi anh ta dựa vào tốc độ, các đòn tấn công hình nón và rất nhiều đạn để đánh trúng càng nhiều mục tiêu càng tốt."
 		"hero_astro_playstyle"          "Astro phụ thuộc vào kỹ năng bắn chính xác của cô ấy, bắn vào những thứ cô ấy đã nảy lên không trung. Với khả năng ngắm tốt, cô ấy có thể gây ra sát thương nặng. Kỹ năng di chuyển của cô ấy cho phép cô ấy cô lập kẻ thù hoặc rút lui nhanh chóng."
@@ -2997,8 +2999,9 @@
 		"hero_mirage_playstyle"		"Mirage có thể bao bọc mình trong một cơn lốc xoáy dữ dội để bắt kịp kẻ địch và nâng chúng lên. Những con bọ hung của anh ta giúp anh ta duy trì sức mạnh chống lại nhiều kẻ địch, và anh ta luôn sẵn sàng giúp đỡ đồng minh hoặc trừng phạt kẻ địch ở bất kỳ đâu."
 		"hero_slork_playstyle"		"Fathom là một sát thủ cận chiến, có khả năng lén lút ra vào giao tranh và chiến thắng trong những trận đấu dài hơi."
 		"hero_tengu_playstyle"		"Ivy sở hữu những chiêu trò chiến đấu phá rối, làm chậm và làm choáng kẻ địch. Cô ta phát huy hiệu quả nhất khi kết hợp với một đồng minh, tăng cường sức mạnh cho vũ khí của cả hai và chia sẻ hồi máu."
+		"hero_magician_playstyle"	"Với sự giúp đỡ của trợ thủ không mấy tình nguyện, Pháp Sư có thể làm cho kẻ thù rối loạn với những lời nguyền uốn lượn và những lá bài ném nhanh như chớp."
+		"hero_viper_playstyle"		"Với một vũ khí mạnh mẽ (cùng với nọc độc chết người tương xứng), Viper có thể trườn vào phía sau đội hình kẻ thù và ám sát những mục tiêu ưu tiên cao trong cơn bão đạn."
 
-	
 		//"hero_akimbo_lore"			"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.\n\nGrisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \"The Troubadour\", but when she confronted him he exploded into a murder of crows and flew away.\n\nThat was 6 months ago, and while the murders in central illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch."
 		"hero_atlas_lore" 				"Nghiền ngẫm, cứng đầu và thích uống; thám tử Abrams đã là một phần không thể thiếu trong cảnh điều tra ở New York suốt nhiều năm. Từ các tác phẩm nghệ thuật bị đánh cắp, đến những người mất tích, và các vụ giết người theo nghi thức; Abrams không chỉ nhận bất kỳ vụ án nào đến tay... ông giải quyết chúng.\n\nNhưng những ngày theo dõi các cặp vợ chồng lừa dối của ông đã kết thúc vào ngày ông mở cửa văn phòng và tìm thấy The Tome nằm trên bàn làm việc.\n\nKhông có hướng dẫn nào để lại cho ông, chỉ một ghi chú ngắn được viết bằng máu onyx với dòng chữ \"Đừng để chúng có được nó\". Abrams vẫn chưa tìm ra nguồn gốc của vật đó; nhưng khi thấy nhà của mình đã bị đột nhập, văn phòng bị lục soát ba lần khác nhau, và xe của ông bị đốt, ông có động lực lớn để tìm ra chuyện quái gì đang xảy ra."
