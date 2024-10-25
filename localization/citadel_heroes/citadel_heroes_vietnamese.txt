@@ -422,7 +422,7 @@
 		//"TimeSaveSpeedPenaltyDuration_label"		"Thời Gian Hình Phạt Tốc Độ"
 		"TimeSaveSpeedPenaltyDuration_postfix"	"s"
 
-		"citadel_ability_chrono_swap"				"Paradoxical Swap"
+		"citadel_ability_chrono_swap"				"Hoán Đổi Nghịch Lý"
 		"citadel_ability_chrono_swap_quip"		"Hoán đổi vị trí với anh hùng địch"
 		"modifier_chrono_swap_bubble_move"		"Hoán Đổi Nghịch Lý"
 		"citadel_ability_chrono_swap_desc"		"Bắn ra một viên đạn <span class=\"highlight\">hoán đổi vị trí của bạn với anh hùng địch mục tiêu.</span> Trong khi hiệu ứng diễn ra, bạn nhận được <span class=\"highlight\">hút máu tinh thần</span> và kẻ địch <span class=\"highlight\">nhận sát thương theo thời gian</span>."
