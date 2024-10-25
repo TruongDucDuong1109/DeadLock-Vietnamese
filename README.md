@@ -2,16 +2,6 @@
 
 Repo này chứa bản dịch tiếng Việt đang phát triển cho [Deadlock](https://store.steampowered.com/app/1422450), một dự án game đang trong quá trình phát triển của [Valve](https://valvesoftware.com/). Dành cho mọi người muốn chơi game bằng tiếng Việt.
 
-## Khung Readme
-
-Khung được lấy từ [đây](https://github.com/Barnacl437/deadlock-vietnamese), Cảm ơn Barnacl437 đã đóng góp bản dịch này cho ae cộng đồng
-
-## hiện giờ...
-
-Tạm thời đã hoàn thành phần dịch cơ bản để các bạn có thể trải nghiệm game một cách tốt hơn, còn một số lỗi và phần dịch chưa được tự nhiên , mình sẽ update liên tục.
-
-## vấn đáp và hướng dẫn
-
 ### Tải và thử ?
 
 Tải file zip ở [đây](https://github.com/TruongDucDuong1109/DeadLock-Vietnamese/archive/refs/heads/main.zip) (luôn mới nhất từ branch main), giải nén thư mục `localization` và copy/move vào địa chỉ `[...]\steamapps\common\Deadlock\game\citadel\resource`, trong đó `[...]` là địa chỉ Steam Library của bạn.
@@ -24,7 +14,11 @@ Tải file zip ở [đây](https://github.com/TruongDucDuong1109/DeadLock-Vietna
 
 Và lại theo địa chỉ như trên vào mục `resource`.
 
-Và một bước quan trọng để bắt game hiển thị bằng tiếng ta. Tiếp tục bấm biểu tượng bánh răng trong thư viện client Steam, hoặc chuột phải vào tên game ở panel bên trái, chọn Properties, và bạn dán dòng này vào Launch options: `-language vietnamese` (dán nối tiếp các options trước đó nếu có) và đóng cửa sổ.
+Và một bước quan trọng để bắt game hiển thị bằng tiếng anh . Tiếp tục bấm biểu tượng bánh răng trong thư viện client Steam, hoặc chuột phải vào tên game ở panel bên trái, chọn Properties, và bạn dán dòng này vào Launch options: `-language vietnamese` (dán nối tiếp các options trước đó nếu có) và đóng cửa sổ.
+
+## Link Youtube hướng dẫn
+
+![Đây nè](https://www.youtube.com/watch?v=DvUUQgotzio&t=7s)
 
 ## Donnate cho mình ly cafe ?
 
