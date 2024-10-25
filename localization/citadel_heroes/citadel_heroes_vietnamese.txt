@@ -1317,73 +1317,74 @@
 		// Hero Nano // Calico
 		//-----------------------------------------------------------------------------
 
-		"ability_perched_predator"				"Sekhmet's Spirit"
-		"ability_perched_predator_desc"			"Send a Spirit Cat forward that grab's targets in its way.  Grabbing a Hero will cause an explosion soon after. <br>Press [{s:in_ability1}] to manually create the explosion."
-		//"CatExplosionCount_label"				"Explosions"
-		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
+		"ability_perched_predator"				"Thần Khí Sekhmet"
+		"ability_perched_predator_desc"			"Phóng một Con Mèo Tinh Linh về phía trước để bắt các mục tiêu trên đường đi.  Bắt được một Anh Hùng sẽ gây ra một vụ nổ ngay sau đó.<br>Nhấn [{s:in_ability1}] để tạo ra vụ nổ một cách thủ công."
+		//"CatExplosionCount_label"				"Vụ Nổ"
+		//"CatMaxSpeed_label"						"Tốc Độ Tối Đa Của Mèo Ma"
 		"CatMaxSpeed_postfix"						"m/s"
-		//"CatLifetime_label"						"Cat Lifetime"
+		//"CatLifetime_label"						"Thời Gian Sống Của Mèo"
 		"CatLifetime_postfix"					"s"
 
-		
-		"ability_nano_pounce"						"Pounce"
-		"ability_nano_pounce_quip"				"Leap at a target"
-		"ability_nano_pounce_desc"				"<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times."
-		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}s</span> Slow Duration"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:PounceDebuffRadius}m</span> Slow Radius"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Ability Charge and reloads up to <span class=\"highlight\">{s:ActiveReloadPercent}%</span> of your ammo"
-		"PounceDebuffRadius_label"					"Slow Radius"
+		"ability_nano_pounce"					"Nhảy"
+		"ability_nano_pounce_quip"				"Nhảy vào một mục tiêu"
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">Nhảy</span> vào một mục tiêu để gây <span class=\"highlight\">Thiệt Hại Cận Chiến Nhẹ.</span>  Nhắm vào kẻ thù sẽ gây <span class=\"highlight\">chậm lại</span> cho kẻ thù gần đó. Nhắm vào đồng đội sẽ có thời gian hồi chiêu và nạp lại giảm."
+		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}s</span> Thời Gian Chậm"
+		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow}%</span> Chậm Tốc Độ Bắn và <span class=\"highlight\">+{s:PounceDebuffRadius}m</span> Bán Kính Chậm"
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Nạp Lại Kỹ Năng và nạp lại tối đa <span class=\"highlight\">{s:ActiveReloadPercent}%</span> đạn của bạn"
+		"PounceDebuffRadius_label"					"Bán Kính Chậm"
 		"PounceDebuffRadius_postfix"					"m"
-		
-		"PounceFriendlyRechargeTime_label"				"Ally Recharge Time"
+
+		"PounceFriendlyRechargeTime_label"				"Thời Gian Nạp Lại Đồng Đội"
 		"PounceFriendlyRechargeTime_postfix"			"s"
-		"PounceFriendlyTargetCD_label"				"Ally Cooldown"
+		"PounceFriendlyTargetCD_label"				"Thời Gian Hồi Chiêu Đồng Đội"
 		"PounceFriendlyTargetCD_postfix"			"s"
 
-		"ability_nano_proximity_ritual"			"Perched Predator"
-		"ability_nano_proximity_ritual_quip"	"Deploy your companion to attack enemies"
-		"ability_nano_proximity_ritual_desc"	"Send out <span class=\"highlight\">Ava</span> to <span class=\"highlight\">attack</span> a nearby enemy.  Targetted enemies have reduced healing and give health to Ava and {s:hero_name} when damanged by them.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled."
-		"StatueLifetime_label"					"Auto Recall Time"
+
+		"ability_nano_proximity_ritual"			"Thần Khí Bất Động"
+		"ability_nano_proximity_ritual_quip"	"Triển khai một đồng minh để tấn công kẻ thù"
+		"ability_nano_proximity_ritual_desc"	"Gửi <span class=\"highlight\">Ava</span> để <span class=\"highlight\">tấn công</span> một kẻ thù gần đó.  Các mục tiêu bị nhắm sẽ giảm khả năng hồi phục và cung cấp Máu cho Ava và {s:hero_name} khi bị chúng tấn công.  Ava chỉ hoạt động khi {s:hero_name} ở gần. <br>Khi ở gần, nhấn [3] để triệu hồi Ava, Ava sẽ hồi phục Máu trong khi được triệu hồi."
+		"StatueLifetime_label"					"Thời Gian Tự Triệu Hồi"
 		"StatueLifetime_postfix"				"s"
-		"StatueHeldRegen_label"						"Ava Recalled Regen"
-		"StatueLifesteal_label"					"Lifesteal"
+		"StatueHeldRegen_label"				"Hồi Phục Khi Ava Được Triệu Hồi"
+		"StatueLifesteal_label"					"Hút Máu"
 		"StatueLifesteal_postfix"				"%"
-		"StatueLifestealNonHero_label"			"Lifesteal Non-Hero"
+		"StatueLifestealNonHero_label"			"Hút Máu Từ Kẻ Thù Không Phải Anh Hùng"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Activate Range"
+		"StatueActivateRange_label"				"Bán Kính Kích Hoạt"
 		"StatueActivateRange_postfix"			"m"
-		"StatueHealth_label"					"Ava (Normalized)"
+		"StatueHealth_label"					"Ava (Chuẩn Hóa)"
 		"StatueHealth_postfix"					"HP"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}<\span> Health for Ava"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> Damage Amplification and {s:HealAmpReceivePenaltyPercent}% Heal Reduction on Victims."
-		"ability_nano_proximity_ritual_trigger"		"Recall Ava"
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}</span> Sức Khỏe cho Ava"
+		//"ability_nano_proximity_ritual_t2_desc"  "Nạn nhân nhận <span class=\"highlight\">{s:FireRateSlow}%</span> Chậm Tốc Độ Bắn và <span class=\"highlight\">+{s:ActiveRadius}m</span> Bán Kính Hoạt Động"
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> Tăng Sát Thương và {s:HealAmpReceivePenaltyPercent}% Giảm Hồi Phục trên Nạn Nhân."
+		"ability_nano_proximity_ritual_trigger"		"Triệu Hồi Ava"
 
-		"AvaRecallCooldown_label"				"Recall Cooldown"
+
+		"AvaRecallCooldown_label"				"Thời Gian Đợi Triệu Hồi"
 		"AvaRecallCooldown_postfix"				"s"
-		"AvaResummonCooldown_label"				"Recast Cooldown"
+		"AvaResummonCooldown_label"				"Thời Gian Đợi Tái Triệu Hồi"
 		"AvaResummonCooldown_postfix"			"s"
-		"AbilityButtonHint_AvaRecall"			"Recall Ava"
+		"AbilityButtonHint_AvaRecall"			"Triệu Hồi Ava"
 
-		"ability_nano_ult_shadow"				"Queen of Shadows"
-		"ability_nano_ult_shadow_desc"			"Cast yourself in shadow and go <span class=\"highlight\">Invisible</span>.  Attacks do not break invisibility but they will temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)"
-		"modifier_nano_ult_shadow"			"Queen of Shadows"
+		"ability_nano_ult_shadow"				"Nữ Hoàng Bóng Tối"
+		"ability_nano_ult_shadow_desc"			"Đắm mình trong bóng tối và trở nên <span class=\"highlight\">Vô Hình</span>. Tấn công không làm mất đi sự vô hình nhưng sẽ tạm thời lộ diện bạn. Tấn công kẻ thù bằng <span class=\"highlight\">Đòn Gần</span> sẽ giảm khả năng chống đạn của chúng (tích lũy)."
+		"modifier_nano_ult_shadow"			"Nữ Hoàng Bóng Tối"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
-		"NanoShadowBulletArmorReductionLight_label"	"Bullet Resist (Light)"
+		"NanoShadowBulletArmorReductionLight_label"	"Kháng Đạn (Nhẹ)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
-		"NanoShadowBulletArmorReductionHeavy_label"	"Bullet Resist (Heavy)"
-		"NanoShadowBulletArmorReductionDuration_label" "Bullet Resist Duration"
+		"NanoShadowBulletArmorReductionHeavy_label"	"Kháng Đạn (Nặng)"
+		"NanoShadowBulletArmorReductionDuration_label" "Thời Gian Kháng Đạn"
 		"NanoShadowBulletArmorReductionDuration_postfix" "s"
 		"NanoShadowMeleeAttackSpeedBonus_prefix"			"+"
-		"NanoShadowMeleeAttackSpeedBonus_label"			"Melee Attack Speed"
+		"NanoShadowMeleeAttackSpeedBonus_label"			"Tốc Độ Tấn Công Gần"
 		"NanoShadowMeleeAttackSpeedBonus_postfix"		"%"
-		"SilenceOnHeavyDuration_label"		"Silence Duration"
+		"SilenceOnHeavyDuration_label"		"Thời Gian Im Lặng"
 		"SilenceOnHeavyDuration_postfix"		"s"
 
-		"modifier_nano_shadow_debuff"		"-Bullet Resist"
-		
-		"ability_nano_ult_shadow_t2_desc"	"On Cast, Remove all Debuffs"
-		"ability_nano_ult_shadow_t3_desc"	"Heavy Melee attacks cause <span class=\"highlight\">Silence</span> for {s:SilenceOnHeavyDuration}s"
+		"modifier_nano_shadow_debuff"		"-Kháng Đạn"
+
+		"ability_nano_ult_shadow_t2_desc"	"Khi Thi triển, Gỡ bỏ tất cả Các Hiệu Ứng Tiêu Cực"
+		"ability_nano_ult_shadow_t3_desc"	"Tấn công Gần Nặng gây <span class=\"highlight\">Im Lặng</span> trong {s:SilenceOnHeavyDuration}s"
 
 
 		//-----------------------------------------------------------------------------
@@ -1733,6 +1734,35 @@
 		"citadel_ability_shiv_killing_blow_t1_desc"	"Nhận <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> tốc độ di chuyển khi cơn thịnh nộ đầy."
 		"citadel_ability_shiv_killing_blow_t3_desc"	"Hoàn thành việc giết kẻ thù bằng Đòn Kết Liễu <span class=\"highlight\">làm mới thời gian hồi chiêu của nó.</span>"
 		
+
+
+		"fathom_scalding_spray"			"Xịt Nước Sôi"
+		"fathom_scalding_spray_quip"	"Phun nước sôi thành hình nón về phía trước."
+		"fathom_scalding_spray_desc"	"Phun nước sôi thành hình nón về phía trước. Bạn tích lũy thêm sát thương vũ khí khi phun nước gây sát thương cho kẻ thù."
+		"WeaponDamageBonusPerSec_label"		"Tăng Sát Thương Vũ Khí Mỗi Giây"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Đột Kích"
+		"fathom_breach_quip"		"Đâm thẳng về phía kẻ thù."
+		"fathom_breach_desc"		"Đâm thẳng về phía trước, gây sát thương cho tất cả kẻ thù gần nơi bạn đáp xuống và đẩy chúng lên không trung."
+
+		"fathom_defer_damage"		"Rạch Máu"
+		"fathom_defer_damage_quip"	"Trì hoãn một phần sát thương đã nhận."
+
+		"fathom_reefdweller_harpoon"		"Đoản Tên Rạn San Hô"
+		"fathom_reefdweller_harpoon_quip"	"Ném một đoản tên để kéo bạn về phía bề mặt."
+		"fathom_reefdweller_harpoon_desc"	"Ném một đoản tên gắn vào bề mặt và kéo bạn lại. Khi treo mình vào bề mặt bằng đoản tên, bạn trở nên <span class=\"highlight\">vô hình và không thể bị tổn thương</span>. Kẻ thù nhìn trực diện vào Fathom sẽ phát hiện ra sự vô hình."
+		"fathom_reefdweller_harpoon_passive_desc" "Thụ động: Khi không giao tranh và ẩn trên minimap, <span class=\"highlight\">hồi phục một phần máu tối đa</span> mỗi giây."
+		"modifier_fathom_reefdweller_harpoon_latched"	"Đoản Tên Rạn San Hô"
+		"fathom_reefdweller_harpoon/regen"	"Hồi Phục Ngoài Giao Tranh"
+		"fathom_reefdweller_harpoon/latched"	"Gắn Vào Tường"
+		"OutOfCombatRegen_label"			"Hồi Phục Máu Tối Đa"
+		"OutOfCombatRegen_postfix"			"%"
+
+
+
+
+
 		//-----------------------------------------------------------------------------
 		// Hero: Rutger
 		//-----------------------------------------------------------------------------
@@ -2891,7 +2921,7 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Với một khẩu shotgun mạnh mẽ và vóc dáng mảnh mai, Pocket dựa vào khả năng tạm thời trốn vào một chiếc vali huyền bí và dịch chuyển bằng chiếc áo choàng bay để sống sót trong những cuộc chạm trán gần."
 		"hero_mirage_playstyle"		"Mirage có thể bao bọc mình trong một cơn lốc xoáy dữ dội để bắt kịp kẻ địch và nâng chúng lên. Những con bọ hung của anh ta giúp anh ta duy trì sức mạnh chống lại nhiều kẻ địch, và anh ta luôn sẵn sàng giúp đỡ đồng minh hoặc trừng phạt kẻ địch ở bất kỳ đâu."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Fathom là một sát thủ cận chiến, có khả năng lén lút ra vào giao tranh và chiến thắng trong những trận đấu dài hơi."
 		"hero_tengu_playstyle"		"Ivy sở hữu những chiêu trò chiến đấu phá rối, làm chậm và làm choáng kẻ địch. Cô ta phát huy hiệu quả nhất khi kết hợp với một đồng minh, tăng cường sức mạnh cho vũ khí của cả hai và chia sẻ hồi máu."
 
 	
@@ -2944,6 +2974,7 @@
 
 "hero_mirage_lore"				"Những Djinn là một trong những nhóm người thú vị hơn trong thế giới hiện đại. Sở hữu sức mạnh lớn trong liều lượng kiểm soát, Djinn không thể duy trì hình dạng thể xác lâu hơn 48 phút mà không nghỉ trong một chiếc bình. Do đó, hầu hết các Djinn thuê vệ sĩ
 
+"hero_slork_lore"				"Là một quái vật nổi tiếng của Thế Giới Sâu, Fathom thích thú trong việc xây dựng một bầu không khí huyền bí và đáng sợ xung quanh mình. Hắn sống cuộc đời an nhàn, thưởng thức những con thuyền lạc và đòi cống nạp từ những con selkie, nhưng rồi Kẻ Thù đã xuất hiện và phá hủy mọi thứ. Rốt cuộc, khi nói đến việc gieo rắc nỗi kinh hoàng, làm sao hắn có thể cạnh tranh với một lực lượng tự nhiên tàn sát? Thật không công bằng. Hắn phải làm gì đó để cứu bản thân khỏi việc bị lãng quên... và thế là hắn tìm cách triệu hồi Những Đấng Bảo Hộ để đảm bảo rằng hắn sẽ mãi mãi là kẻ săn mồi tối thượng của Thế Giới Sâu."
 
 
 

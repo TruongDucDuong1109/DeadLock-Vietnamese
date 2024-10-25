@@ -641,6 +641,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Tìm trận"
 		"Citadel_RosterMode_CoopBotMM"								"Tìm trận với bot"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Phòng Thí Nghiệm Anh Hùng"
 		"Citadel_RosterMode_PrivateBotEasy"							"Trận bot riêng - Dễ"
 		"Citadel_RosterMode_PrivateBotMedium"						"Trận bot riêng - Thường"
 		"Citadel_RosterMode_PrivateBotHard"							"Trận bot riêng - Khó"
@@ -669,6 +670,10 @@
 		"Citadel_Roster_Instructions_Desc"							"Chọn tối thiểu 3 tướng, bạn sẽ được tự động đóng vai một nhân vật khi trận bắt đầu.<br><br>Bạn có thể đánh dấu tướng là <span class='selected'><b>Được chọn</b></span>, <span class='priority'><b>Ưu tiên</b></span>, hay <span class='high_priority'><b>Ưu tiên cao</b></span> để tăng tỷ lệ bạn chơi được tướng bạn muốn."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> để đánh dấu tướng được chọn"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> để chuyển qua lại giữa <b>Ưu tiên</b> và <b>ưu tiên cao</b>"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Phòng Thí Nghiệm Anh Hùng"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Xếp hàng để chơi với hoặc chống lại các Anh Hùng Thử Nghiệm mới.<br><br>Chọn tối thiểu ba Anh Hùng, <b>trong đó hai phải là Anh Hùng chuẩn, không phải thử nghiệm.</b> Người chơi sẽ có nhiều khả năng nhận được một Anh Hùng Thử Nghiệm từ danh sách của họ dựa trên khoảng thời gian kể từ lần cuối họ chơi bất kỳ Anh Hùng Thử Nghiệm nào."
+
 
 		"Citadel_ViewMatchID_Title"									"Xem trận bằng ID"
 		"Citadel_ViewMatchID_Desc"									"Nhập ID trận để xem chi tiết"
@@ -1000,7 +1005,13 @@
 		"Citadel_StartMatchmaking_RankedLockedPlural"				"Chơi thêm {i:games_needed_to_unlock_ranked} trận multiplayer thường để mở khóa đấu hạng."
 		"Citadel_StartMatchmaking_InParty"							"Bạn không thể tự tạo trận vì đang trong đội."
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Bạn chưa chọn được tướng hợp lệ để tạo trận."
+		
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Danh sách tướng của bạn không chứa tướng nào chưa được chọn"
+		"Citadel_StartMatchmaking_NoRegionPings"					"Không thể kết nối với bất kỳ Steam Datagram Relay nào. Nếu bạn đã kết nối Internet, nguyên nhân thường do sự cố tường lửa, MTU hoặc kết nối Internet của bạn."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Tìm trận trong Thí Nghiệm Anh Hùng hiện không khả dụng."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Bạn chưa mở khóa tính năng tìm trận Thí Nghiệm Anh Hùng."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Không thể tìm trận Thí Nghiệm Anh Hùng khi bạn đang trong danh sách ưu tiên thấp."
+
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Tạo trận đã dừng. Không nhận được phản hồi từ GC"
 		"Citadel_StopMatchMaking_GeneralError"						"Không thể tạo trận, thử lại sau"
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Không thể dừng tạo trận, thử lại sau."
@@ -1037,6 +1048,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Hiện thông báo"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Ẩn thông báo"
 		"Citadel_Dashboard_ViewLibrary"								"Xem thư viện"
+		"Citadel_Dashboard_ReloadPageTooltip"						"Tải Lại Trang Hiện Tại"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Trận Chuẩn"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Trận Hạng"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Trận Phòng Thí Nghiệm Anh Hùng"
+		"Citadel_Dashboard_Status_Mode_Private"						"Trận Riêng Tư"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Trận Hợp Tác Với Bot"
+
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Hiển Thị Các Anh Hùng Thử Nghiệm"
+
 
 		"Citadel_Watch_Title"										"Xem trận đấu"
 		"Citadel_Watch_Featured"									"Trận đấu nổi bật"
@@ -1141,6 +1161,13 @@
 		"Citadel_PartySetMode_PlayerBanned"						"Một thành viên đội bạn {g:citadel_persona:nl:account_id} hiện bị cấm chơi chế độ này cho đến {t:s:time_stamp} lúc {t:t:time_stamp}"
 		"Citadel_PartySetMode_TooManyHighMMR"					"Trong đội bạn đang có rất nhiều người chơi xếp hạng cao để có thể tạo trận. Chúng tôi đang tạm thời không cho phép điều này xảy ra để tránh các phe không cân bằng kĩ năng chơi."
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Một người chơi trong đội {g:citadel_persona:nl:account_id} đã bị cấm hoàn toàn chơi chế độ này"
+		"Citadel_PartySetMode_CannotLeavePrivate"				"Các phòng riêng hiện không cho phép thay đổi chế độ."
+		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Các nhóm có năm người chơi hiện không được phép tham gia tìm trận. Vui lòng thử lại với nhóm lớn hơn hoặc nhỏ hơn."
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Tìm trận trong Hero Labs hiện không khả dụng."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Một thành viên trong nhóm của bạn {g:citadel_persona:nl:account_id} chưa đủ điều kiện để tham gia tìm trận Hero Labs."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Một thành viên trong nhóm của bạn {g:citadel_persona:nl:account_id} đang ở mức ưu tiên thấp và do đó không thể xếp hàng tìm trận Hero Labs."
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"Nhóm của bạn có khoảng cách kỹ năng cao và 5 người chơi. Điều này hiện không được phép vì chúng tôi sẽ không thể tìm trận cho bạn."
+
 
 		"Citadel_PartyInvite_ErrorTitle"						"Không thể gửi lời mời"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Không thể kết nối với mạng Deadlock. Vui lòng thử lại sau."
@@ -2193,6 +2220,7 @@
 		"menu_clear_party_mode"						"Đổi chế độ"
 		"menu_leave_testing"						"Rời sandbox"
 		"menu_bot_custom"							"Trận Đấu Tùy Chỉnh"
+		"menu_bot_hero_labs"						"Phòng Thí Nghiệm Anh Hùng"
 		"menu_resume"								"Tiếp tục"
 		"menu_abandon"								"Bỏ Trận"
 		"menu_leave"								"Rời trận"
@@ -2385,6 +2413,7 @@
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} TƯỚNG TRONG DANH SÁCH"
 		"MyRosterGreatForNewPlayers"				"Người mới nên chơi"
 		"MyRosterAssignedTesting"					"Kiểm Tra Được Chỉ Định"
+		"MyRosterHeroLabsHero"						"Phòng Thí Nghiệm Anh Hùng"
 		"MyRosterAssignedOpenTesting"				"Kiểm Tra Mở"
 		"MyRosterChangeHero"						"Đổi tướng"
 		"MyRosterLetsGo"							"Vào hàng chờ"
