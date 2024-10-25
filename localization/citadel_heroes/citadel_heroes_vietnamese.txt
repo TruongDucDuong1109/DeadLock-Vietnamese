@@ -960,7 +960,7 @@
 		"hint_throw_wrecking_ball" "Ném Bóng"
 
 		"ability_wrecker_salvage" "Hấp Thụ"
-		"ability_wrecker_salvage_desc" "<span class=\"highlight\">Choáng</span> một quân lính hoặc NPC kẻ thù, <span class=\"highlight\">gây sát thương</span> cho họ trong khi bị giữ. Một kill thành công cung cấp một <span class=\"highlight\">tăng tốc độ bắn</span>, và phục hồi một <span class=\"highlight\">sạc Bio Blast</span>. Tăng tốc này có thể tích lũy độc lập."
+		"ability_wrecker_salvage_desc" "<span class=\"highlight\">Choáng</span> một quân lính hoặc quái rừng, <span class=\"highlight\">gây sát thương</span> cho họ trong khi bị hút. Với mỗi đơn vị bị giết thành công cung cấp cho bạn <span class=\"highlight\">tốc độ bắn</span>, và phục hồi một lần <span class=\"highlight\">sạc Vụ Nổ Sinh Học</span>. Tăng tốc này có thể tích lũy độc lập."
 		"ability_wrecker_salvage_quip" "Hấp Thụ một quân lính hoặc quái rừng"
 		"FireRateBuffDuration_label" "Thời gian tăng"
 		"FireRateBuffDuration_postfix" "s"
