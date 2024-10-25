@@ -285,6 +285,12 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"KHÔNG CÓ BĂNG ĐẠN ĐẦY ĐỂ NẠP"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Hạng"
+		"Citadel_MatchInfo_Mode_Standard"							"Chuẩn"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Phòng thí nghiệm anh hùng"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Hợp tác"
+		"Citadel_MatchInfo_Mode_Private"							"Riêng tư"
+
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Phiên bản không tương thích"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Client của bạn hiện không phải phiên bản tương thích để kết nối đến server"
@@ -628,6 +634,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Tìm trận chơi đội"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Tìm trận chơi đội với bot"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"				"Tham gia Phòng Thí Nghiệm Anh Hùng"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Chơi trận bot riêng với đội - Dễ"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Chơi trận bot riêng với đội - Thường"
 		"Citadel_RosterMode_Party_PrivateBotHard"					"Chơi trận bot riêng với đội - Khó"
@@ -2252,6 +2259,8 @@
 		"menu_learn_incomplete"						"Chưa hoàn thành"
 		"menu_learn_completed"						"Đã hoàn thành"
 		"menu_play_custom_game_desc"				"Tạo hoặc tham gia một trận đấu tùy chỉnh cho tối đa 12 người chơi"
+		"menu_play_hero_labs_desc"					"Hỗ trợ thử nghiệm các anh hùng mới"
+		"menu_play_hero_labs_locked_desc"			"Hỗ trợ thử nghiệm các anh hùng mới. Mở khóa sau khi chơi 50 trận"
 
 		"menu_play_ranked"							"Chơi Xếp Hạng"
 		"menu_play_ranked_desc"						"Chơi một trận đấu cạnh tranh hơn với những người chơi có kỹ năng tương tự."
@@ -2283,6 +2292,45 @@
 		"Citadel_ranked_schedule_explainer"			"Xếp Hạng sẽ chỉ có sẵn trong một số giờ nhất định, trước khi chơi bạn phải chọn một khung giờ phù hợp nhất với lịch trình của mình."
 		
 		"Citadel_ranks_rank0"						"Chưa Khởi Đầu"
+
+		"Citadel_ranked_explainer_button"			"Chế độ Hạng là gì?"
+		"Citadel_ranked_explainer_title"			"Tìm Trận Hạng"
+		"Citadel_ranked_explainer_desc"				"Hạng là chế độ thử thách mang đến trải nghiệm Deadlock cạnh tranh hơn, nơi bạn sẽ được ghép đấu với người chơi có kỹ năng tương đương để xác định thứ hạng của bạn trong cộng đồng toàn cầu.<br><br>Mỗi tuần, người chơi có thể chọn tham gia thi đấu bằng cách chơi các trận xếp hạng vào thời gian mở của khu vực để thể hiện kỹ năng cá nhân."
+		"Citadel_ranked_howitworks_title"			"Nó hoạt động như thế nào?"
+		"Citadel_ranked_howitworks_desc"			"Tất cả người chơi sẽ bắt đầu với hạng tạm thời là Obscurus, và bạn phải hoàn thành bảy trận đấu Hạng mỗi tuần để đủ điều kiện cho bảng xếp hạng của tuần đó. Cuối tuần, bạn sẽ nhận được thứ hạng của mình, hiển thị dưới dạng huy hiệu trên hồ sơ.<br><br>Nếu cuối tuần bạn chưa chơi đủ bảy trận, thứ hạng của bạn sẽ trở về Obscurus và ẩn đi cho đến khi bạn đủ điều kiện trong tuần khác. Thước đo kỹ năng vẫn được bảo toàn và sử dụng cho các trận Hạng sau này của bạn, nhưng huy hiệu sẽ không được hiển thị cho đến khi đạt yêu cầu.<br><br>Có mười một hạng khác nhau, và trong mỗi hạng, người chơi còn được phân thêm cấp phụ từ I đến <Panel class=\"starIcon\"></Panel>, nhằm phân biệt vị trí của bạn trong hạng đó."
+		"Citadel_ranked_rankedmedals"				"Hạng:"
+		"Citadel_ranked_subranks_explainer"			"Cấp phụ: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Thiết kế huy hiệu sẽ được công bố khi thứ hạng đầu tiên được trao vào Thứ Ba, ngày 22 tháng Mười."
+
+		"Citadel_ranked_result_title"				"Báo Cáo Thứ Hạng"
+		"Citadel_ranked_result_rankup"				"Thăng Hạng!"
+		"Citadel_ranked_result_adjustment"			"Điều Chỉnh Thứ Hạng"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} Trận Đã Chơi"
+		"Citadel_ranked_match_history"				"Lịch Sử Trận Đấu:"
+
+		"Citadel_ranks_rank0"						"Kẻ Vô Danh"
+		"Citadel_ranks_rank1"						"Tân Thủ"
+		"Citadel_ranks_rank2"						"Kẻ Dò Tìm"
+		"Citadel_ranks_rank3"						"Giả Kim Sư"
+		"Citadel_ranks_rank4"						"Thầy Pháp"
+		"Citadel_ranks_rank5"						"Tế Sư"
+		"Citadel_ranks_rank6"						"Sứ Thần"
+		"Citadel_ranks_rank7"						"Thống Lĩnh"
+		"Citadel_ranks_rank8"						"Tiên Tri"
+		"Citadel_ranks_rank9"						"Huyễn Ảnh"
+		"Citadel_ranks_rank10"						"Bậc Thăng Hoa"
+		"Citadel_ranks_rank11"						"Vĩnh Cửu"
+
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Kĩ năng"
