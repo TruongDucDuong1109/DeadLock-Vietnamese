@@ -18,7 +18,7 @@ Và một bước quan trọng để bắt game hiển thị bằng tiếng anh 
 
 ## Link Youtube hướng dẫn
 
-![Đây nè](https://www.youtube.com/watch?v=DvUUQgotzio&t=7s)
+[![Video tutorial](https://img.youtube.com/vi/DvUUQgotzio/0.jpg)](https://www.youtube.com/watch?v=DvUUQgotzio)
 
 ## Donnate cho mình ly cafe ?
 
