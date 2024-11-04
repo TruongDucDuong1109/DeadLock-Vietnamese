@@ -67,10 +67,10 @@
 		"ability_power_surge"					"Dòng Chảy Sức Mạnh"
 		"ability_power_surge_quip"			"Tạo ra các tia điện với mỗi phát bắn."
 		"ability_power_surge_desc"			"Tăng cường vũ khí của bạn với hiệu ứng sốc, khiến <span class=\"highlight\">đạn của bạn kích hoạt sát thương sốc lên mục tiêu</span>. Sát thương sốc này <span class=\"highlight\">nảy sang kẻ địch</span> gần mục tiêu của bạn. Hiệu ứng xảy ra một lần mỗi lần bắn."
-		"ability_power_surge_t1_desc"			"Sát Thương Sốc áp dụng {s:TechResistDebuff}% Kháng Tinh Thần trong {s:DebuffDuration}s"
-		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} Sát Thương Sốc, cải thiện tỷ lệ Tinh Thần, và +{s:ChainCount} Số Lần Nhảy Tối Đa"
+		"ability_power_surge_t1_desc"			"Sát Thương Sốc áp dụng {s:TechResistDebuff}% Kháng Phép Thuật trong {s:DebuffDuration}s"
+		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} Sát Thương Sốc, cải thiện tỷ lệ Phép Thuật, và +{s:ChainCount} Số Lần Nhảy Tối Đa"
 		"modifier_power_surge"				"Chuỗi Sét"
-		"modifier_power_surge_debuff"			"Kháng Tinh Thần Giảm"
+		"modifier_power_surge_debuff"			"Kháng Phép Thuật Giảm"
 
 		//"ChainLightningRadius_label"			"Phạm vi Chuỗi Sét"
 		"ChainLightningRadius_postfix"		"m"
@@ -150,7 +150,7 @@
 		// Hero McGinnis (previous names: // Engineer // Forge )
 		//-----------------------------------------------------------------------------
 
-		"citadel_ability_fissure_wall"			"Spectral Wall"
+		"citadel_ability_fissure_wall"			"Tường Ma"
 		"citadel_ability_fissure_wall_quip"		"Triệu hồi một bức tường để chặn kẻ thù của bạn"
 		"citadel_ability_fissure_wall_desc"		"Tạo ra một bức tường <span class=\"highlight\">chia đôi địa hình</span>. Khi được tạo ra, bức tường <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">áp dụng làm chậm</span> lên kẻ thù gần đó. <br>Sau khi thi triển, nhấn [{s:iv_attack}] hoặc [{s:in_ability3}] để làm nổ bức tường sớm."
 		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">Loại bỏ {s:StaminaReduction} thể lực</span> và tăng sát thương của {s:hero_name} lên <span class=\"highlight\">{s:BonusDamagePercent}%</span> lên kẻ thù bị trúng trong {s:DebuffDuration}s"
@@ -160,7 +160,7 @@
 		"WallImpactRange_label"					"Phạm Vi Va Chạm"
 		"WallImpactRange_postfix"				"m"
 
-		"citadel_ability_mobile_resupply"		"Medicinal Specter"
+		"citadel_ability_mobile_resupply"		"Ma Trị Liệu"
 		"citadel_ability_mobile_resupply_quip"	"Triển khai một linh hồn chữa lành"
 		"citadel_ability_mobile_resupply_desc"	"Triển khai một linh hồn <span class=\"highlight\">chữa lành các đơn vị gần đó</span>."
 		"MaxHealthRegenPct_label"				"Hồi Phục Máu Tối Đa"
@@ -176,9 +176,9 @@
 		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% Tốc Độ Bắn</span> trên các đơn vị được chữa lành bởi Bóng Ma Chữa Bệnh"
 		"citadel_ability_mobile_resupply_t3_desc"	"+{s:MaxHealthRegenPct}% Hồi Phục Máu Tối Đa mỗi giây"
 		
-		"citadel_ability_shieldedsentry"		"Mini Turret"
+		"citadel_ability_shieldedsentry"		"Tháp Pháo"
 		"citadel_ability_shieldedsentry_quip"	"Triển khai một tháp pháo tự động"
-		"citadel_ability_shieldedsentry_desc"	"Triển khai một Tháp Pháo Mini <span class=\"highlight\">tự động bắn kẻ thù</span>. Tháp pháo hết hạn sau một thời gian giới hạn.<br>Tháp pháo nhận {s:TurretHealthScaling}% Máu tối đa của {s:hero_name} và có {s:TechResist}% Kháng Tinh Thần. Chúng gây sát thương giảm lên lính và mục tiêu."
+		"citadel_ability_shieldedsentry_desc"	"Triển khai một Tháp Pháo Mini <span class=\"highlight\">tự động bắn kẻ thù</span>. Tháp pháo hết hạn sau một thời gian giới hạn.<br>Tháp pháo nhận {s:TurretHealthScaling}% Máu tối đa của {s:hero_name} và có {s:TechResist}% Kháng Phép Thuật. Chúng gây sát thương giảm lên lính và mục tiêu."
 		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> Sạc Kỹ Năng và tháp pháo áp dụng <span class=\"highlight\">+{s:MoveSlowPercent}%</span> Làm Chậm Di Chuyển"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> Phạm Vi Tấn Công và <span class=\"highlight\">+{s:AttackSpeedMult}%</span> tốc độ bắn của tháp pháo"
 		
@@ -203,7 +203,7 @@
 		
 		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"Hiệu Ứng Sát Thương Tường"
 		
-		"citadel_ability_rocket_barrage"		"Heavy Barrage"
+		"citadel_ability_rocket_barrage"		"Pháo Kích Hạng Nặng"
 				"citadel_ability_rocket_barrage_quip"	"Pháo kích một khu vực bằng tên lửa"
 		"citadel_ability_rocket_barrage_desc"	"Phóng ra một loạt tên lửa nhắm vào một vị trí được chỉ định."
 		"citadel_ability_rocket_barrage_t1_desc"	"Áp dụng <span class=\"highlight\">{s:MoveSlowPercent}% làm chậm di chuyển</span>"
@@ -220,21 +220,21 @@
 		// Wraith
 		//-----------------------------------------------------------------------------
 
-		"citadel_ability_psychic_lift"			"Telekinesis"
+		"citadel_ability_psychic_lift"			"Thuật Thần Giao"
 		"citadel_ability_psychic_lift_quip"		"Nâng một kẻ thù, làm gián đoạn và làm câm lặng chúng"
 		"citadel_ability_psychic_lift_desc"		"Nâng một anh hùng địch lên không trung, <span class=\"highlight\">làm choáng</span> chúng trong một thời gian ngắn. Khi việc nâng kết thúc, mục tiêu nhận sát thương Telekinesis."
-		"citadel_ability_psychic_lift/lift"		"Telekinesis"
-		"citadel_ability_psychic_lift_t3_desc"	"Telekinesis sẽ nhắm mục tiêu kẻ thù trong khu vực xung quanh {s:hero_name}"
+		"citadel_ability_psychic_lift/lift"		"Thuật Thần Giao"
+		"citadel_ability_psychic_lift_t3_desc"	"Thuật Thần Giao sẽ nhắm mục tiêu kẻ thù trong khu vực xung quanh {s:hero_name}"
 		"modifier_citadel_psychiclift"			"Đang Bị Nâng - Ôi Không!"
 		//"modifier_citadel_psychiclift_self"		"Đang Nâng - Bị Câm Lặng + Bị Tước Vũ Khí"
 		
 		//"citadel_ability_psychic_daggers_desc"		"Ném các lá bài bằng sức mạnh tâm linh <span class=\"highlight\">trúng các mục tiêu ngẫu nhiên</span> xung quanh bạn."
 		
-		"citadel_ability_projectmind"			"Project Mind"
+		"citadel_ability_projectmind"			"Chiếu Tâm"
 		"citadel_ability_projectmind_quip"		"Dịch chuyển đến vị trí được chỉ định"
 		"citadel_ability_projectmind_desc"			"<span class=\"highlight\">Dịch chuyển</span> đến vị trí được chỉ định."
 		"BulletShieldOnLand_label"				"Lá Chắn Đạn Khi Dịch Chuyển"
-		"citadel_ability_projectmind_t2_desc"	"Cung cấp một <span class=\"highlight\">lá chắn đạn {s:BulletShieldOnLand}</span> trong {s:BulletShieldDuration}s khi dịch chuyển. Lượng lá chắn tỷ lệ với Sức Mạnh Tinh Thần."
+		"citadel_ability_projectmind_t2_desc"	"Cung cấp một <span class=\"highlight\">lá chắn đạn {s:BulletShieldOnLand}</span> trong {s:BulletShieldDuration}s khi dịch chuyển. Lượng lá chắn tỷ lệ với Sức Mạnh Phép Thuật."
 		"modifier_wraith_project_mind_shield"				"Lá Chắn Đạn"
 		"citadel_ability_projectmind/modifier_citadel_projectmind/modifier_wraith_project_mind_shield"	"Lá Chắn Đạn"
 		"wraith_project_mind_t2_title"			"Lá Chắn Đạn:"
@@ -247,14 +247,14 @@
 		//"citadel_ability_psychic_daggers_t3_desc"	"Mỗi lá bài <span class=\"highlight\">nảy một lần</span> lên kẻ thù khác trong phạm vi"
 		//"DamagePerDagger_label"					"Sát Thương Mỗi Lá Bài"
 		
-		"citadel_ability_wraith_rapidfire"		"Full Auto"
+		"citadel_ability_wraith_rapidfire"		"Xả Đạn"
 		
 		"citadel_ability_wraith_rapidfire_quip"	"Tăng tốc độ bắn của bạn"
 		"citadel_ability_wraith_rapidfire_desc"	"Tạm thời tăng <span class=\"highlight\">tốc độ bắn</span> của bạn. Đồng minh gần đó nhận được một nửa mức tăng tốc độ bắn."
 		//"citadel_ability_wraith_rapidfire/modifier_rapidfire" "Bắn Nhanh"
 		 
 
-		"citadel_ability_card_toss"				"Card Trick"
+		"citadel_ability_card_toss"				"Lá Bài Ma Thuật"
 				"citadel_ability_card_toss_quip" "Ném các lá bài tự động tìm mục tiêu"
 		"citadel_ability_card_toss_desc" "Gây sát thương vũ khí để triệu hồi các lá bài. Kích hoạt để ném một lá bài bay về phía kẻ thù hoặc điểm dưới tâm ngắm của bạn."
 		"CardResourceGenPctScale_label"				"Tốc Độ Triệu Hồi Lá Bài"
@@ -375,7 +375,7 @@
 		//"citadel_ability_time_bomb_quip"			"Nổ gần"
 		//"citadel_ability_time_bomb_desc"			"{s:hero_name} ném một quả bom phát nổ nếu kẻ thù nằm trong bán kính của nó sau thời gian kích hoạt. Vụ nổ gây ra một <span class=\"highlight\">đóng băng thời gian</span> nhanh chóng và gây <span class=\"highlight\">{s:SingleTargetMult}x sát thương nhiều hơn</span> nếu nó chỉ trúng một mục tiêu."
 		//"citadel_ability_time_bomb_t2_desc"		"Kẻ thù bị trúng Bom Thời Gian sẽ bị <span class=\"highlight\">giảm kháng đạn {s:BulletArmorReduction}</span> trong <span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>"
-		//"citadel_ability_time_bomb_t3_desc"		"<span class=\"highlight\">+{s:Damage} Sát Thương</span> và Bom Thời Gian nhận <span class=\"highlight\">+50% sát thương nhiều hơn</span> từ Sức Mạnh Tinh Thần"
+		//"citadel_ability_time_bomb_t3_desc"		"<span class=\"highlight\">+{s:Damage} Sát Thương</span> và Bom Thời Gian nhận <span class=\"highlight\">+50% sát thương nhiều hơn</span> từ Sức Mạnh Phép Thuật"
 		//"chrono_time_trap_debuff"					"Bom Thời Gian"
 		
 		"citadel_ability_chrono_pulse_grenade"			"Lựu Đạn Xung"
@@ -396,7 +396,7 @@
 		"modifier_pulsegrenade_magic_resist_debuff"		"Lựu Đạn Xung"
 		
 		"modifier_citadel_chrono_pulse_grenade_debuff"					"Lựu Đạn Xung"
-		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"Lựu Đạn Xung - Giảm Kháng Tinh Thần"
+		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"Lựu Đạn Xung - Giảm Kháng Phép Thuật"
 		
 		"TriggerDelay_label"						"Thời Gian Trì Hoãn Nổ"
 		"TriggerDelay_postfix"					"s"
@@ -425,9 +425,9 @@
 		"citadel_ability_chrono_swap"				"Hoán Đổi Nghịch Lý"
 		"citadel_ability_chrono_swap_quip"		"Hoán đổi vị trí với anh hùng địch"
 		"modifier_chrono_swap_bubble_move"		"Hoán Đổi Nghịch Lý"
-		"citadel_ability_chrono_swap_desc"		"Bắn ra một viên đạn <span class=\"highlight\">hoán đổi vị trí của bạn với anh hùng địch mục tiêu.</span> Trong khi hiệu ứng diễn ra, bạn nhận được <span class=\"highlight\">hút máu tinh thần</span> và kẻ địch <span class=\"highlight\">nhận sát thương theo thời gian</span>."
+		"citadel_ability_chrono_swap_desc"		"Bắn ra một viên đạn <span class=\"highlight\">hoán đổi vị trí của bạn với anh hùng địch mục tiêu.</span> Trong khi hiệu ứng diễn ra, bạn nhận được <span class=\"highlight\">hút máu Phép Thuật</span> và kẻ địch <span class=\"highlight\">nhận sát thương theo thời gian</span>."
 		"modifier_citadel_chrono_swap_debuff"		"Bị Làm Chậm"
-		"modifier_citadel_chrono_swap_buff"		"Miễn Nhiễm Tinh Thần"
+		"modifier_citadel_chrono_swap_buff"		"Miễn Nhiễm Phép Thuật"
 		//"CooldownOnMiss_Label"					"Hồi Chiêu Khi Trượt"
 		"CooldownOnMiss_postfix"					"s"
 		//"AllyCooldownReduction_label"				"Giảm Hồi Chiêu Đồng Minh"
@@ -455,7 +455,7 @@
 		//"MinDuration_label"						"Thời Gian Tối Thiểu"
 		"MinDuration_postfix"						"s"
 
-		"citadel_ability_chrono_kinetic_carbine"		"Kinetic Carbine"
+		"citadel_ability_chrono_kinetic_carbine"		"Súng Động Lực Học"
 			"citadel_ability_chrono_kinetic_carbine_quip"	"Tích điện vũ khí của bạn để gây sát thương cao và dừng thời gian"
 		"citadel_ability_chrono_kinetic_carbine_desc"	"Bắt đầu tích điện vũ khí của bạn và nhận <span class=\"highlight\">tăng tốc độ di chuyển</span> khi nó được tích điện đầy đủ. Phát bắn tiếp theo của bạn sẽ giải phóng năng lượng, gây <span class=\"highlight\">Sát Thương Phép Thuật</span> và áp dụng <span class=\"highlight\">dừng thời gian</span> lên kẻ địch bị trúng. Sát thương gây ra là sự khuếch đại của sát thương vũ khí hiện tại của bạn. <br><br>Bạn có thể làm chậm thời gian cho bản thân bằng cách nhấn [{s:iv_attack2}] khi có sẵn phát bắn được cường hóa."
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown}s Hồi Chiêu và +{s:SpeedBoostDuration}s Thời Gian Tăng Tốc"
@@ -524,7 +524,7 @@
 		//-----------------------------------------------------------------------------
 		// Infernus
 		//-----------------------------------------------------------------------------
-		"ability_incendiary_projectile"			"Catalyst"
+		"ability_incendiary_projectile"			"Chất Xúc Tác"
 		"ability_incendiary_projectile_quip"	"Phun napalm để tăng sát thương của bạn"
 		"ability_incendiary_projectile_desc"	"Phun napalm <span class=\"highlight\">làm chậm chuyển động của kẻ thù</span> và <span class=\"highlight\">tăng sát thương</span> {s:hero_name} gây ra cho chúng."
 		"ability_incendiary_projectile_t2_desc"	"{s:hero_name} nhận <span class=\"highlight\">{s:LifestealPercentHero}% Hút Máu</span> đối với nạn nhân"
@@ -533,7 +533,7 @@
 		"DamageAmplification_postfix"			"%"
 		//"modifier_citadel_incendiaryprojectile_burn" "Đang Cháy từ Napalm"
 
-		"ability_flame_dash"			"Flame Dash"
+		"ability_flame_dash"			"Lao Lửa"
 		"ability_flame_dash_quip"		"Lao tới, để lại vệt lửa phía sau"
 		"ability_flame_dash_desc"		"Di chuyển về phía trước với <span class=\"highlight\">tốc độ cao</span> và để lại vệt lửa <span class=\"highlight\">đốt cháy kẻ thù</span>. Infernus nhận {s:SlowResistancePercent}% kháng làm chậm trong thời gian này. <br>Giữ [{s:iv_attack}] để lao nhanh hơn."
 		"ability_flame_dash_t1_desc"	"<span class=\"highlight\">+{s:FireRateSlow}% Giảm Tốc Độ Bắn</span> trong {s:FlameDashDebuffDuration}s"
@@ -566,7 +566,7 @@
 		"FlameAuraDuration_postfix"			"s"
 		"modifier_flamedash_debuff"			"Lao Lửa"
 
-		"ability_afterburn"			"Afterburn"
+		"ability_afterburn"			"Đốt Cháy"
 		"ability_afterburn_quip"	"Bắn kẻ thù để đốt cháy chúng"
 		"ability_afterburn_desc"	"Đạn của bạn tích tụ để <span class=\"highlight\">áp dụng hiệu ứng đốt cháy lên kẻ thù</span>. Đạn và kỹ năng của {s:hero_name} sẽ <span class=\"highlight\">làm mới</span> thời gian hiệu ứng."
 		"ability_afterburn_t1_desc"	"Nạn nhân gây <span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span> Sát Thương Phép Thuật."
@@ -579,13 +579,13 @@
 		//"AfterburnExplodeRadius_label"			"Bán Kính Lan Truyền"
 		"AfterburnExplodeRadius_postfix"			"m"
 		//"AfterburnExplodeDamage_label"			"Sát Thương Nổ"
-		//"afterburn_spirit_stolen_debuff"			"Tinh Thần Bị Đánh Cắp"
-		//"afterburn_spirit_stolen_buff"			"Tinh Thần Được Lấy"
+		//"afterburn_spirit_stolen_debuff"			"Phép Thuật Bị Đánh Cắp"
+		//"afterburn_spirit_stolen_buff"			"Phép Thuật Được Lấy"
 		
 		"ability_afterburn/modifier_afterburn_watcher/modifier_afterburn_dot"					"Đang Cháy từ Đốt Cháy"
 		"modifier_afterburn_dot"		"Đang Cháy từ Đốt Cháy"
 
-		"ability_fire_bomb"				"Concussive Combustion"
+		"ability_fire_bomb"				"Bùng Nổ Chấn Động"
 		"ability_fire_bomb_quip"		"Làm choáng tất cả kẻ thù gần đó sau một khoảng thời gian ngắn"
 		"ability_fire_bomb_desc"		"Biến bạn thành một quả bom sống nổ sau một khoảng thời gian ngắn, <span class=\"highlight\">làm choáng tất cả kẻ thù</span> trong bán kính của nó."
 		"ability_fire_bomb_t2_desc"		"<span class=\"highlight\">+{s:StunDuration}s</span> Thời Gian Choáng và <span class=\"highlight\">+{s:Radius}m</span> Bán Kính"
@@ -706,7 +706,7 @@
 		//"modifier_citadel_posion_bullets_poisoned"	"Ngủ Say"
 		//"modifier_citadel_posion_bullets_poison_buildup"	"Buồn Ngủ"
 
-		"ability_sleep_dagger"			"Sleep Dagger"
+		"ability_sleep_dagger"			"Dao Găm Thôi Miên"
 		"ability_sleep_dagger_quip"		"Ru ngủ kẻ thù"
 		"ability_sleep_dagger_desc"		"Ném một con dao găm <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">ru ngủ</span> mục tiêu. Mục tiêu đang ngủ sẽ tỉnh dậy ngay sau khi bị sát thương. Ném Dao Găm không làm mất đi sự vô hình của bạn. Dao Găm Ngủ không làm gián đoạn các kỹ năng đang kích hoạt của kẻ thù."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"Đang Ngủ"
@@ -727,7 +727,7 @@
 		"modifier_citadel_sleep_dagger_postsleep"	"Sát Thương Giảm"
 
 		
-		"ability_stacking_damage"		"Fixation"
+		"ability_stacking_damage"		"Chăm Chú"
 		"ability_stacking_damage_quip"	"Gây sát thương đạn tăng dần lên mục tiêu"
 		"ability_stacking_damage_desc"	"Bắn vào mục tiêu <span class=\"highlight\">tăng sát thương đạn của bạn lên mục tiêu đó</span>. Nhận một <span class=\"highlight\">chồng</span> mỗi lần trúng đạn, hai nếu trúng đầu."
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"Chăm Chú"
@@ -740,7 +740,7 @@
 		"DamageBonusFixedPerStack_postfix"					" mỗi chồng"
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage/slow"			"Bị Làm Chậm"
 
-		"ability_smoke_bomb"			"Smoke Bomb"
+		"ability_smoke_bomb"			"Màn Khói"
 			"ability_smoke_bomb_quip"		"Biến mất khỏi tầm nhìn"
 		"ability_smoke_bomb_desc"		"Biến mất khỏi tầm nhìn, trở nên <span class=\"highlight\">vô hình</span> và nhận <span class=\"highlight\">tốc độ chạy nước rút</span>. Tấn công sẽ loại bỏ vô hình. Kẻ thù gần có thể nhìn thấy qua sự vô hình của bạn."
 		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Thời Gian Hồi Chiêu Kỹ Năng"
@@ -750,7 +750,7 @@
 		"modifier_citadel_smoke_bomb_invis" 	"Vô Hình"
 		//"ability_smoke_bomb/modifier_buff"		"Ổn Định"
 
-		"ability_bullet_flurry"			"Bullet Dance"
+		"ability_bullet_flurry"			"Điệu Vũ Tử Thần"
 		"ability_bullet_flurry_quip"	"Phóng ra một loạt đạn xung quanh bạn"
 		"ability_bullet_flurry_desc"	"Vào trạng thái loạt đạn, <span class=\"highlight\">bắn vũ khí của bạn</span> vào kẻ thù gần đó với <span class=\"highlight\">độ chính xác hoàn hảo</span>. Trong trạng thái loạt đạn, {s:hero_name} nhận tăng tốc độ bắn và sẽ né tránh một số đạn bắn vào cô ấy."
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Loạt Đạn"
@@ -788,7 +788,7 @@
 		//"citadel_ability_charged_tackle_quip"	"Lao vào chiến đấu"
 		//"citadel_ability_charged_tackle_desc"	"Tích tụ năng lượng sau đó lao tới, <span class=\"highlight\">kéo và gây sát thương cho kẻ thù</span> trên đường đi. Có thể hủy sớm."
 		//"citadel_ability_charged_tackle_t1_desc"	"<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">+{s:ChargeDistance}m</span> Khoảng Cách Lao."
-		//"citadel_ability_charged_tackle_t2_desc"	"Nhận <span class=\"highlight\">{s:TechShield}HP Khiên Tinh Thần</span> trong <span class=\"highlight\">{s:TechShieldDuration}s</span> khi Lao Tới Tấn Công kết thúc."
+		//"citadel_ability_charged_tackle_t2_desc"	"Nhận <span class=\"highlight\">{s:TechShield}HP Khiên Phép Thuật</span> trong <span class=\"highlight\">{s:TechShieldDuration}s</span> khi Lao Tới Tấn Công kết thúc."
 		//"citadel_ability_charged_tackle_t3_desc"	"<span class=\"highlight\">Loại Bỏ Thời Gian Chuẩn Bị</span> và <span class=\"highlight\">{s:AbilityCooldown}s</span> Thời Gian Hồi Chiêu Kỹ Năng"
 		//"citadel_ability_charged_tackle/modifier_charge_pull_enemy"	"Lao Tới Tấn Công"
 		//"citadel_ability_charged_tackle_cancel_channel"	"Dừng Lao"
@@ -813,7 +813,7 @@
 		"citadel_ability_nikuman_quip"			"Hồi phục cho bạn và những người xung quanh"
 		"citadel_ability_nikuman_desc"			"Trong khi kích hoạt, <span class=\"highlight\">hồi phục Máu theo thời gian</span> cho bạn và bất kỳ đồng minh nào gần đó. Lao không làm gián đoạn kích hoạt."
 		"citadel_ability_nikuman/modifier_nikuman"	"Hào Quang Tái Sinh"
-		//"TechShieldPerSecond_label"				"Khiên Tinh Thần Thêm"
+		//"TechShieldPerSecond_label"				"Khiên Phép Thuật Thêm"
 		"TechShieldPerSecond_postfix"			"/s"
 		"citadel_ability_nikuman_t1_desc"			"Nhận <span class=\"highlight\">+{s:MovementSpeedBonus}m/s tăng tốc độ di chuyển</span> trong {s:MovementSpeedBonusDuration}s nếu Hào Quang được kích hoạt đầy đủ. Nhận ngay lập tức với Nâng Cấp 5AP."
 		"citadel_ability_nikuman_t3_desc"			"<span class=\"highlight\">Di chuyển và sử dụng kỹ năng đầy đủ</span> và hồi phục thêm <span class=\"highlight\">+{s:HealMaxHealthPercent}% Máu Tối Đa</span> mỗi giây"
@@ -823,7 +823,7 @@
 		"HealingPerSecond_postfix"				"/s"
 		"ShareWithFriendsRadius_label"			"Bán Kính Hồi Phục Đồng Minh"
 		"ShareWithFriendsRadius_postfix"			"m"
-		"modifier_nikuman_techshield"				"Khiên Tinh Thần"
+		"modifier_nikuman_techshield"				"Khiên Phép Thuật"
 		//"modifier_nikuman_buff"					"+Tốc Độ Bắn"
 		//"modifier_nikuman_self_buff"				"+Tốc Độ Di Chuyển"
 		//"FireRatePerSecondDuration_label"			"Thời Gian Tốc Độ Bắn"
@@ -889,7 +889,7 @@
 		//-----------------------------------------------------------------------------
 		// Hero Warden
 		//-----------------------------------------------------------------------------
-		"ability_warden_lock_down"				"Binding Word"
+		"ability_warden_lock_down"				"Ngữ Thuật Giam Cầm"
 		"ability_warden_lock_down_quip"			"Nguyền rủa mục tiêu của bạn, trói chúng nếu chúng không thoát được"
 		"ability_warden_lock_down_desc"			"Nguyền rủa một anh hùng địch. Nếu họ không di chuyển khỏi vị trí ban đầu trong <span class=\"highlight\">thời gian thoát</span>, họ sẽ bị <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">bất động</span>."
 		"ability_warden_lock_down_t3_desc"		"{s:hero_name} gây <span class=\"highlight\">+{s:BulletArmorReduction}% sát thương đạn nhiều hơn</span> cho các anh hùng bị trói trong <span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>"
@@ -903,18 +903,18 @@
 		"modifier_warden_lockdown_debuff_hint"	"Rời khỏi khu vực để thoát khỏi trói buộc"
 		"modifier_warden_lockdown_root"			"Từ Trói Buộc"
 
-		"ability_warden_high_alert"				"Willpower"
-		"ability_warden_high_alert_quip"			"Nhận một lá chắn tinh thần và tốc độ di chuyển"
-		"ability_warden_high_alert_desc"			"Nhận một <span class=\"highlight\">lá chắn tinh thần</span> và <span class=\"highlight\">tăng tốc độ di chuyển</span>."
-		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> Máu Lá Chắn Tinh Thần và bây giờ tỷ lệ với Sức Mạnh Tinh Thần"
+		"ability_warden_high_alert"				"Nghị Lực"
+		"ability_warden_high_alert_quip"			"Nhận một lá chắn Phép Thuật và tốc độ di chuyển"
+		"ability_warden_high_alert_desc"			"Nhận một <span class=\"highlight\">lá chắn Phép Thuật</span> và <span class=\"highlight\">tăng tốc độ di chuyển</span>."
+		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> Máu Lá Chắn Phép Thuật và bây giờ tỷ lệ với Sức Mạnh Phép Thuật"
 		"MoveSpeedBonusPct_label"					"Tăng tốc độ di chuyển"
 		"MoveSpeedBonusPct_postfix"				"%"
-		"TechShieldPoints_label"					"Máu Lá Chắn Tinh Thần"
+		"TechShieldPoints_label"					"Máu Lá Chắn Phép Thuật"
 		
 		"modifier_warden_high_alert"				"Ý Chí"
 		//"modifier_warden_high_alert_hint"			""
 
-		"ability_warden_crowd_control"			"Alchemical Flask"
+		"ability_warden_crowd_control"			"Lọ Thuốc Hóa Học"
 			"ability_warden_crowd_control_quip"		"Gây sát thương và làm suy yếu kẻ thù gần đó"
 		"ability_warden_crowd_control_desc"		"Ném một lọ thuốc <span class=\"highlight\">gây sát thương, làm chậm,</span> và giảm <span class=\"highlight\">sát thương vũ khí</span> và <span class=\"highlight\">sức bền</span> của kẻ thù bị trúng."
 		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> Hồi Chiêu và áp dụng <span class=\"highlight\">{s:FireRateSlow}%</span> Giảm Tốc Độ Bắn"
@@ -924,10 +924,10 @@
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Lọ Thuốc Hóa Học"
 
-		"ability_warden_riot_protocol"			"Last Stand"
+		"ability_warden_riot_protocol"			"Phản Kháng Cuối Cùng"
 		"ability_warden_riot_protocol_quip"		"Phát ra các xung đánh cắp Máu từ kẻ thù"
 		"ability_warden_riot_protocol_desc"		"Sau khi tích điện trong {s:AbilityCastDelay}s, <span class=\"highlight\">phát ra các xung gây sát thương kẻ thù và hồi phục Máu cho bạn</span> dựa trên sát thương gây ra. <br>Trong khi niệm Last Stand, bạn có <span class=\"highlight\">kháng đạn</span> tăng đáng kể."
-		"modifier_warden_riot_protocol"			"Last Stand"
+		"modifier_warden_riot_protocol"			"Phản Kháng Cuối Cùng"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Bị Làm Chậm"
 		"HealthStealPctHero_label"				"Hút Máu Anh Hùng"
 		"HealthStealPctHero_postfix"				"%"
@@ -998,7 +998,7 @@
 		//-----------------------------------------------------------------------------
 		// Lash
 		//-----------------------------------------------------------------------------
-		"citadel_ability_lash"					"Grapple"
+		"citadel_ability_lash"					"Móc và Kéo"
 		"citadel_ability_lash_quip"				"Sử dụng roi của bạn để kéo bản thân đến gần kẻ địch."
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Kéo bản thân qua không trung</span> về phía mục tiêu. Sử dụng Grapple cũng sẽ đặt lại giới hạn <span class=\"highlight\">nhảy trên không và lướt</span> của bạn."
 
@@ -1014,7 +1014,7 @@
 		"WeaponDamageBonusDuration_label"			"Thời Gian Buff"
 		"WeaponDamageBonusDuration_postfix"		"s"
 
-		"citadel_ability_lash_down_strike"			"Ground Strike"
+		"citadel_ability_lash_down_strike"			"Đập Đất"
 		"citadel_ability_lash_down_strike_quip"		"Đập xuống đất, gây sát thương kẻ thù"
 		"citadel_ability_lash_down_strike_desc"		"Dậm đất dưới chân bạn, <span class=\"highlight\">gây sát thương kẻ thù</span> trước mặt bạn. Nếu bạn thực hiện Đập Đất khi đang ở trên không, bạn sẽ nhanh chóng lao xuống đất. Sát thương tăng chậm hơn sau 25m."
 		"StompDamagePerMeterPrimary_label"					"Sát Thương Mỗi Mét"
@@ -1035,7 +1035,7 @@
 		//"LashLaunchHeight_label"					"Chiều Cao Hất Lash"
 		"LashLaunchHeight_postfix"				"m"
 
-		"ability_lash_flog"						"Flog"
+		"ability_lash_flog"						"Quất Roi"
 		"ability_lash_flog_quip"				"Hút máu từ các mục tiêu trước mặt bạn"
 		"ability_lash_flog_desc"				"Đánh kẻ thù bằng roi của bạn, <span class=\"highlight\">hút máu</span> từ chúng."
 		"ability_lash_flog_t1_desc"				"Áp dụng <span class=\"highlight\">{s:EnemySlowPct}%</span> Làm Chậm Di Chuyển trong {s:EnemySlowDuration}s"
@@ -1060,7 +1060,7 @@
 		"GrenadeExplosionRadius_postfix"			"m"
 		"GrenadeDamage_label"						"Sát Thương Nổ"
 
-		"citadel_ability_lash_ultimate"			"Death Slam"
+		"citadel_ability_lash_ultimate"			"Đòn Đập Tử Thần"
 		"citadel_ability_lash_ultimate_quip"		"Nâng kẻ thù lên và đập chúng xuống đất"
 		"citadel_ability_lash_ultimate_desc"		"Tập trung vào kẻ thù để kết nối roi với chúng. Sau khi niệm, kẻ thù bị kết nối sẽ bị <span class=\"highlight\">nâng lên và choáng</span> rồi bị đập xuống đất. Nạn nhân của bạn và bất kỳ kẻ thù nào trong khu vực tiếp đất sẽ bị <span class=\"highlight\">gây sát thương và làm chậm</span>. <br>Nhấn [{s:iv_attack}] để ném kẻ thù bị kết nối sớm. Kẻ thù không trong tầm nhìn hoặc ra khỏi phạm vi trong thời gian kết nối sẽ không bị bắt."
 		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"Đập Chết"
@@ -1080,14 +1080,14 @@
 		"ability_icepath/modifier_icepath"		"Đường Băng."
 		//"modifier_citadel_crystal_shield"		"Hút Sát Thương."
 
-		"ability_ice_grenade"				"Frost Grenade"
+		"ability_ice_grenade"				"Lựu Đạn Băng"
 		"ability_ice_grenade_quip"			"Gây sát thương và làm chậm kẻ địch."
 
 		"ability_ice_grenade_desc"			"Ném một quả lựu đạn nổ trong một đám mây băng giá, <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm chậm</span> kẻ thù."
-		"ability_ice_grenade_t2_desc"		"Lựu Đạn Băng giờ <span class=\"highlight\">hồi phục {s:HealAmount} HP</span> cho mục tiêu thân thiện. Tỷ lệ theo Tinh Thần."
+		"ability_ice_grenade_t2_desc"		"Lựu Đạn Băng giờ <span class=\"highlight\">hồi phục {s:HealAmount} HP</span> cho mục tiêu thân thiện. Tỷ lệ theo Phép Thuật."
 		"ability_ice_grenade/kelvin_ice_grenade_slow"	"Lựu Đạn Băng Làm Chậm"
 
-		"ability_icebeam"					"Arctic Beam"
+		"ability_icebeam"					"Tia Băng Giá"
 		"ability_icebeam_quip"				"Áp dụng làm chậm tăng dần"
 		"ability_icebeam_desc"				"Bắn ra năng lượng lạnh giá trước mặt bạn, <span class=\"highlight\">gây sát thương cho mục tiêu</span> và <span class=\"highlight\">tích tụ làm chậm chuyển động và tốc độ bắn</span> lên chúng càng lâu bạn duy trì tia băng lên chúng. Bạn sẽ giảm tốc độ di chuyển khi sử dụng Tia Băng Bắc Cực. Tia băng cũng có thể thu thập Linh Hồn."
 		"ability_icebeam_t3_desc"			"Bắn <span class=\"highlight\">{s:BeamSplitCount} Tia Băng Bắc Cực bổ sung</span> về phía kẻ thù trong phạm vi {s:BeamSplit}m của mục tiêu cuối cùng bị trúng"
@@ -1105,16 +1105,16 @@
 		"BeamSplit_postfix"					"m"
 		"AbilityButtonHint_CancelIceBeam"	"Hủy Tia Băng Bắc Cực"
 
-		"ability_icepath"					"Ice Path"
-		"ability_icepath_quip"				"Tăng tốc trên con đường băng nổi"
+		"ability_icepath"					"Đường Băng"
+		"ability_icepath_quip"				"Tăng tốc trên con đường băng"
 		"ability_icepath_desc"				"{s:hero_name} tạo ra một <span class=\"highlight\">dấu vết nổi</span> của băng và tuyết mang lại phần thưởng di chuyển cho anh ta và đồng minh. Kelvin nhận {s:SlowResistancePercent}% kháng làm chậm trong thời gian này. Kẻ thù cũng có thể đi trên dấu vết nổi. <br>Nhấn [{s:key_innate_1}] / [{s:key_duck}] để di chuyển lên hoặc xuống khi ở trong Đường Băng."
-		"ability_icepath_t3_desc"			"Khi hoạt động, nhận +{s:BonusSpiritMeter} Sức Mạnh Tinh Thần mỗi mét của dấu vết Đường Băng được tạo ra. Tối đa {s:BonusSpiritMax} Sức Mạnh Tinh Thần"
+		"ability_icepath_t3_desc"			"Khi hoạt động, nhận +{s:BonusSpiritMeter} Sức Mạnh Phép Thuật mỗi mét của dấu vết Đường Băng được tạo ra. Tối đa {s:BonusSpiritMax} Sức Mạnh Phép Thuật"
 		"SprintSpeedBonus_label"				"Tốc Độ Chạy Nước Rút"
 		"SprintSpeedBonus_prefix"				"+"
 		"SprintSpeedBonus_postfix"			"m/s"
 		"IcePathAuraDuration_label"			"Thời Gian Dấu Vết Băng"
 		"IcePathAuraDuration_postfix"			"s"
-		//"BonusTechPower_label"				"Sức Mạnh Tinh Thần khi Đi Đường"
+		//"BonusTechPower_label"				"Sức Mạnh Phép Thuật khi Đi Đường"
 		//"IcePathShardRadius_label"			"Chiều Rộng Đường"
 		"IcePathShardRadius_postfix"			"m"
 		"BonusTechDamagePercent_label"		"Sát Thương Phép Thuật Thêm"
@@ -1122,11 +1122,11 @@
 		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"Đường Băng"
 		"AbilityButtonHint_CancelIcePath"	"Hủy Đường Băng"
 
-		"ability_ice_dome"				"Frozen Shelter"
+		"ability_ice_dome"				"Lồng Băng Băng Giá"
 			"ability_ice_dome_quip"			"Tạo ra một mái vòm chữa lành không thể xuyên thủng"
 		"ability_ice_dome_desc"			"{s:hero_name} đóng băng không khí xung quanh mình, tạo ra một <span class=\"highlight\">mái vòm không thể xuyên thủng</span> xung quanh bản thân. Trong khi ở trong mái vòm, đồng minh nhanh chóng <span class=\"highlight\">hồi phục Máu</span> và kẻ thù bị <span class=\"highlight\">làm chậm</span>."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow}%</span> Giảm Tốc Độ Bắn"
-		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> Hồi Phục Máu và giờ tỷ lệ theo Sức Mạnh Tinh Thần"
+		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> Hồi Phục Máu và giờ tỷ lệ theo Sức Mạnh Phép Thuật"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Nơi Ẩn Nấp Đóng Băng"
 		"frozen_shelter_modifier_buff"		"Nơi Ẩn Nấp Đóng Băng"
 		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"Nơi Ẩn Nấp Đóng Băng"
@@ -1395,7 +1395,7 @@
 		"ability_power_jump_quip"		"Nhảy cao lên không trung và bắn đa phát"
 		"ability_power_jump_desc"		"Phóng bạn lên cao, cho phép bạn lướt chậm. Trong khi ở trên không, bạn nhận <span class=\"highlight\">Sát Thương Vũ Khí</span> và <span class=\"highlight\">đa phát trên vũ khí của bạn</span>. Nhấn [{s:in_mantle}] để hủy lướt."
 		"ability_power_jump_t2_desc"	"Trong khi ở trên không, <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Sát Thương Vũ Khí và sát thương vũ khí áp dụng <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm di chuyển trong {s:SlowDuration}s"
-		"ability_power_jump_t3_desc"	"Trong khi ở trên không, <span class=\"highlight\">+{s:TechLifestealPercent}%</span> Hút Máu Đạn và <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> Hút Máu Tinh Thần"
+		"ability_power_jump_t3_desc"	"Trong khi ở trên không, <span class=\"highlight\">+{s:TechLifestealPercent}%</span> Hút Máu Đạn và <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> Hút Máu Phép Thuật"
 		//"modifier_citadel_archer_air_raid"			"Nhảy Sức Mạnh"
 		"BulletSplitShot_label"			"Đa Phát Vũ Khí"
 		//"AbilitySplitShot_label"			"Đa Phát Bắn Tích Tụ"
@@ -1412,13 +1412,13 @@
 		"modifier_citadel_immobilize_trap_immobilize"	"Bẫy Bất Động"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "Hiệu Ứng Xấu Bẫy Bất Động"
 		"ability_immobilize_trap_t3_desc"	"{s:hero_name} gây <span class=\"highlight\">+{s:BulletVulnerbility}%</span> sát thương đạn nhiều hơn lên kẻ thù bị trúng Bẫy Bất Động trong <span class=\"highlight\">{s:DebuffDuration}s</span>"
-		"ability_immobilize_trap/trap_debuff"	"Giảm Giáp Tinh Thần"
+		"ability_immobilize_trap/trap_debuff"	"Giảm Giáp Phép Thuật"
 
 		"ability_guided_arrow"		"Cú Dẫn Đường"
 		"ability_guided_arrow_quip"	"Điều khiển cú của bạn để gây sát thương từ xa"
-		"ability_guided_arrow_desc"	"Sau {s:AbilityCastDelay}s thời gian thi triển, <span class=\"highlight\">phóng ra một con cú tinh thần mà bạn điều khiển</span> và nó sẽ nổ khi va chạm, <span class=\"highlight\">gây sát thương và làm choáng</span> kẻ thù. Giữ [{s:iv_attack}] để tăng tốc cú.<br>Nhấn [{s:in_mantle}] để thả điều khiển. Nhận <span class=\"highlight\">Sức Mạnh Tinh Thần vĩnh viễn</span> cho mỗi anh hùng địch bị giết bởi Cú Điều Khiển."
+		"ability_guided_arrow_desc"	"Sau {s:AbilityCastDelay}s thời gian thi triển, <span class=\"highlight\">phóng ra một con cú Phép Thuật mà bạn điều khiển</span> và nó sẽ nổ khi va chạm, <span class=\"highlight\">gây sát thương và làm choáng</span> kẻ thù. Giữ [{s:iv_attack}] để tăng tốc cú.<br>Nhấn [{s:in_mantle}] để thả điều khiển. Nhận <span class=\"highlight\">Sức Mạnh Phép Thuật vĩnh viễn</span> cho mỗi anh hùng địch bị giết bởi Cú Điều Khiển."
 		"ability_guided_arrow_t3_desc"	"Sau khi trúng, giết kẻ thù có dưới <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% Máu</span>"
-		"BonusTechPowerPerKill_label"		"Sức Mạnh Tinh Thần Mỗi Lần Giết"
+		"BonusTechPowerPerKill_label"		"Sức Mạnh Phép Thuật Mỗi Lần Giết"
 		
 		"modifier_citadel_archer_guided_arrow"		"Cú Điều Khiển"
 
@@ -1427,7 +1427,7 @@
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bom Tinh Hoa"
 		"ability_blood_bomb_quip"			"Hy sinh một ít Máu để phóng ra một quả bom gây sát thương"
-		"ability_blood_bomb_desc"			"<span class=\"highlight\">Hy sinh một ít Máu của bạn</span> để phóng ra một quả bom <span class=\"highlight\">gây sát thương</span> sau một thời gian ngắn kích hoạt.<br>Loại sát thương tự gây là Tinh Thần và có thể giảm thiểu."
+		"ability_blood_bomb_desc"			"<span class=\"highlight\">Hy sinh một ít Máu của bạn</span> để phóng ra một quả bom <span class=\"highlight\">gây sát thương</span> sau một thời gian ngắn kích hoạt.<br>Loại sát thương tự gây là Phép Thuật và có thể giảm thiểu."
 		"ability_blood_bomb_t3_desc"	"Bom để lại một đống độc hại trên mặt đất, gây <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> của <span class=\"highlight\">sát thương gốc mỗi giây</span>, trong <span class=\"highlight\">{s:BloodSpillDuration}s</span>."
 		
 		"ability_life_drain"				"Hút Sinh Mệnh"
@@ -1453,7 +1453,7 @@
 		"ability_health_swap"					"Hoán Đổi Linh Hồn"
 		"ability_health_swap_quip"			"Hoán đổi Máu hiện tại của bạn với anh hùng địch"
 		"ability_health_swap_desc"			"<span class=\"highlight\">Hoán đổi mức Máu</span> với mục tiêu địch. Có một tỷ lệ phần trăm Máu tối thiểu mà kẻ thù có thể bị giảm xuống và một lượng Máu tối thiểu nhận được dựa trên Máu hiện tại của nạn nhân."
-		"ability_health_swap_t3_desc"			"Khi thi triển, <span class=\"highlight\">+{s:BonusFireRate}%</span> Tốc Độ Bắn và <span class=\"highlight\">+{s:TechResist}%</span> Kháng Tinh Thần trong {s:HealthSwapBuffDuration}s."
+		"ability_health_swap_t3_desc"			"Khi thi triển, <span class=\"highlight\">+{s:BonusFireRate}%</span> Tốc Độ Bắn và <span class=\"highlight\">+{s:TechResist}%</span> Kháng Phép Thuật trong {s:HealthSwapBuffDuration}s."
 		"MinHealthTakenPct_label"				"Máu Nhận Được Tối Thiểu"
 		"MinHealthTakenPct_postfix"			"%"
 		//"modifier_blood_exchange"				"Hoán Đổi Máu"
@@ -1472,7 +1472,7 @@
 		//"modifier_citadel_death_tax"				"Thuế Tử Thần"
 		//"modifier_citadel_death_tax_tech_amp"		"Sức Mạnh Thuế Tử Thần"
 		//"ability_death_tax_t1_desc"	"Giảm một trong những Hồi Chiêu của bạn đi <span class=\"highlight\">{s:CooldownReductionOnKill}s</span> khi một kẻ thù bị đánh dấu chết"
-		//"ability_death_tax_t3_desc"	"Tăng Sức Mạnh Tinh Thần lên <span class=\"highlight\">{s:TechPowerAmpBonus}</span> trong <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> khi một kẻ thù bị đánh dấu chết. Tích lũy lên đến <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> lần."
+		//"ability_death_tax_t3_desc"	"Tăng Sức Mạnh Phép Thuật lên <span class=\"highlight\">{s:TechPowerAmpBonus}</span> trong <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> khi một kẻ thù bị đánh dấu chết. Tích lũy lên đến <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> lần."
 	
 		"ability_blood_shards"				"Ác Ý"
 		"ability_blood_shards_quip"			"Tích lũy tăng sát thương lên kẻ thù"
@@ -1521,7 +1521,7 @@
 		//-----------------------------------------------------------------------------
 		// Vindicta
 		//-----------------------------------------------------------------------------
-		"citadel_ability_hornet_chain"				"Stake"
+		"citadel_ability_hornet_chain"				"Cọc Xiên"
 		"citadel_ability_hornet_chain_quip"			"Trói kẻ thù của bạn xuống đất"
 		"citadel_ability_hornet_chain_desc"			"Ném một cọc <span class=\"highlight\">trói kẻ thù</span> vào vị trí nơi cọc rơi. Chuyển động của kẻ thù bị hạn chế bởi chiều dài của dây trói."
 		"citadel_ability_hornet_chain_t3_desc"		"Kẻ thù bị trói cũng bị <span class=\"highlight\">tước vũ khí<%s3>"
@@ -1538,7 +1538,7 @@
 		//"citadel_ability_wing_blast_desc"		"Tạo ra một vụ nổ không khí đẩy kẻ thù ra xa và gây sát thương cho chúng."
 		//"modifier_citadel_wing_blast_push"		"Đang bị Vindicta đẩy"
 		
-		"citadel_ability_hornet_leap"			"Flight"
+		"citadel_ability_hornet_leap"			"Bay Lượn"
 		"citadel_ability_hornet_leap_quip"		"Bay lên và tăng cường vũ khí của bạn"
 		"citadel_ability_hornet_leap_desc"		"Nhảy lên không trung và <span class=\"highlight\">bay</span>. Trong khi bay, vũ khí của bạn gây <span class=\"highlight\">Sát Thương Phép Thuật bổ sung</span>."
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> đạn cơ bản khi bay"
@@ -1565,7 +1565,7 @@
 		//"citadel_ability_hornet_mark_t2_desc"	"Khi một kẻ địch bị đánh dấu bị giết, Vindicta ngay lập tức nhận được <span class=\"highlight\">{s:ChargeForKill} Năng lượng cho Ám Sát</span>"
 		//"modifier_citadel_hornetmark"			"Dấu Ấn Vindicta"
 		
-		"citadel_ability_hornet_sting"			"Crow Familiar"
+		"citadel_ability_hornet_sting"			"Linh Quạ"
 				"citadel_ability_hornet_sting_quip"		"Làm mục tiêu chảy máu theo thời gian"
 		"citadel_ability_hornet_sting_desc"		"Con quạ quen thuộc của bạn gây <span class=\"highlight\">sát thương va chạm</span>, giảm kháng đạn của chúng và áp dụng một <span class=\"highlight\">chảy máu</span> gây sát thương dựa trên <span class=\"highlight\">Máu hiện tại của mục tiêu</span>."
 		"citadel_ability_hornet_sting_t1_desc"	"Quạ <span class=\"highlight\">Nảy lên đến 2 lần</span> về phía các kẻ thù khác trong phạm vi {s:TargetBounceRange}m"
@@ -1575,10 +1575,10 @@
 		//"BulletVulnerbility_label"				"Khuếch Đại Sát Thương Vũ Khí"
 		"BulletVulnerbility_postfix"				"%"
 
-		"citadel_ability_hornet_snipe"			"Assassinate"
+		"citadel_ability_hornet_snipe"			"Ám Sát"
 			"citadel_ability_hornet_snipe_quip"		"Bắn tỉa các mục tiêu bị thương để gây sát thương lớn"
 		"citadel_ability_hornet_snipe_desc"		"Sử dụng súng trường có ống ngắm của bạn để bắn một phát mạnh từ khoảng cách xa. Chỉ gây sát thương một phần cho đến khi được tích điện đầy đủ sau 1 giây ngắm. Gây <span class=\"highlight\">sát thương thêm</span> cho kẻ thù có <span class=\"highlight\">dưới {s:LowHealthEnemyThresholdPct}% Máu</span> còn lại. Hạ gục một người chơi bằng Assassinate <span class=\"highlight\">cấp cho bạn linh hồn thêm</span>."
-		//"citadel_ability_hornet_snipe_t3_desc"	"Giết bằng Assassinate cấp +{s:BonusGoldOnKill} linh hồn"
+		//"citadel_ability_hornet_snipe_t3_desc"	"Giết bằng Ám Sát cấp +{s:BonusGoldOnKill} linh hồn"
 		"LowHealthEnemyDamageBonus_label"		"Sát Thương Thêm"
 		"LowHealthEnemyThresholdPct_label"		"Ngưỡng Máu Thấp"
 		"LowHealthEnemyThresholdPct_postfix"	"%"
@@ -1597,9 +1597,9 @@
 		"citadel_ability_grapplehook_desc"		"Phóng ra một cái móc, và kéo {s:hero_name} về phía bức tường mà nó trúng."
 		"modifier_citadel_grapplehook_wall_hanging"	"Treo Tường Móc Leo"
 
-		"ability_burrow"			"Burrow"
+		"ability_burrow"			"Đào Hầm"
 		"ability_burrow_quip"		"Chui xuống đất và trồi lên với sát thương quay"
-		"ability_burrow_desc"		"Đào hầm dưới đất, <span class=\"highlight\">di chuyển nhanh hơn,</span> và nhận <span class=\"highlight\">giáp tinh thần và đạn</span>. Sát thương từ anh hùng địch sẽ giảm phần thưởng tốc độ. Khi bạn nhảy ra, hất kẻ thù lên không và thực hiện một đòn quay <span class=\"highlight\">gây sát thương và làm chậm</span>. Hồi chiêu bắt đầu khi Đào Ngầm kết thúc."
+		"ability_burrow_desc"		"Đào hầm dưới đất, <span class=\"highlight\">di chuyển nhanh hơn,</span> và nhận <span class=\"highlight\">giáp Phép Thuật và đạn</span>. Sát thương từ anh hùng địch sẽ giảm phần thưởng tốc độ. Khi bạn nhảy ra, hất kẻ thù lên không và thực hiện một đòn quay <span class=\"highlight\">gây sát thương và làm chậm</span>. Hồi chiêu bắt đầu khi Đào Ngầm kết thúc."
 		"modifier_spin"				"Quay"
 		"SpinDuration_label"		"Thời Gian Quay"
 		"SpinDuration_postfix"		"s"
@@ -1609,7 +1609,7 @@
 		"ability_burrow_t2_desc"	"<span class=\"highlight\">+{s:DPS}</span> DPS Quay và +{s:Radius} bán kính"
 		"ability_burrow_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}</span> Hồi Chiêu và <span class=\"highlight\">+{s:BonusMoveSpeed}m/s</span> Tốc Độ Di Chuyển"
 		
-		"ability_intimidate"			"Scorn"
+		"ability_intimidate"			"Khinh Bỉ"
 		"ability_intimidate_quip"		"Gây sát thương kẻ thù gần đó, hồi phục từ mỗi đòn đánh"
 		"ability_intimidate_desc"		"Gây <span class=\"highlight\">sát thương</span> cho kẻ thù gần đó và <span class=\"highlight\">hồi phục bản thân</span> dựa trên sát thương gây ra. Hồi phục mạnh hơn đối với anh hùng địch."
 		"ability_intimidate_t3_desc"	"Thêm một hiệu ứng xấu lên kẻ thù cho phép {s:hero_name} gây <span class=\"highlight\">+{s:DamageBonus}% Sát Thương</span> lên chúng. Tích lũy và kéo dài {s:DebuffDuration}s."
@@ -1625,7 +1625,7 @@
 		//"ability_ooc_health_regen"			"Hồi Phục Máu Ngoài Chiến Đấu"
 		//"ability_ooc_health_regen_desc"		""
 
-		"ability_throw_sand"			"Sand Blast"
+		"ability_throw_sand"			"Phun Cát"
 		"ability_throw_sand_quip"		"Tước vũ khí kẻ thù trước mặt bạn"
 		"ability_throw_sand_desc"		"Phun cát <span class=\"highlight\">tước vũ khí</span> kẻ thù trước mặt bạn và gây <span class=\"highlight\">sát thương</span>."
 		"modifier_citadel_throw_sand_debuff"	"Bị Phun Cát"
@@ -1636,7 +1636,7 @@
 		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} tạo ra một khiên hấp thụ tất cả sát thương đến. Sau khi thời gian kết thúc hoặc khiên bị phá hủy, nó phát nổ và trả lại sát thương đã hấp thụ cho tất cả kẻ thù xung quanh anh ta."
 		//"modifier_citadel_kineticcharge"		"Hấp Thụ Sát Thương"
 
-		"ability_ult_combo"				"Combo"
+		"ability_ult_combo"				"Đòn Liên Hoàn"
 		"ability_ult_combo_quip"		"Giữ anh hùng địch tại chỗ và đánh đập họ"
 		"ability_ult_combo_desc"		"Giữ mục tiêu tại chỗ, <span class=\"highlight\">làm choáng và gây sát thương</span> trong thời gian niệm. Nếu họ chết trong khi Combo, bạn sẽ vĩnh viễn tăng Máu tối đa."
 		"ability_ult_combo_t2_desc"		"Thời Gian Combo <span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
@@ -1652,7 +1652,7 @@
 		//-----------------------------------------------------------------------------
 		// Shiv
 		//-----------------------------------------------------------------------------
-		"citadel_ability_shiv_dagger"			"Serrated Knives"
+		"citadel_ability_shiv_dagger"			"Dao Răng Cưa"
 		"citadel_ability_shiv_dagger_quip"		"Gây chảy máu tích lũy lên mục tiêu"
 		"citadel_ability_shiv_dagger_desc"		"Ném một con dao <span class=\"highlight\">gây sát thương và chảy máu</span> kẻ thù. Mỗi lần trúng thêm sẽ thêm một <span class=\"highlight\">chồng</span> và làm mới thời gian chảy máu, khiến chảy máu tăng lên mỗi chồng."
 		"citadel_ability_shiv_dagger_max_rage_desc" "Mở Khóa Tối Thượng: <span class=\"highlight\">Khi cơn thịnh nộ đầy</span> dao sẽ nảy sang kẻ thù khác và áp dụng làm chậm lên kẻ thù bị chảy máu."
@@ -1670,7 +1670,7 @@
 		"BleedDuration_label"						"Thời Gian Chảy Máu"
 		"BleedDuration_postfix"					"s"
 
-		"citadel_ability_shiv_dash"				"Slice and Dice"
+		"citadel_ability_shiv_dash"				"Chém và Cắt"
 			"citadel_ability_shiv_dash_quip"		"Lao tới phía trước, gây sát thương cho tất cả kẻ thù trên đường đi"
 		"citadel_ability_shiv_dash_desc"		"Thực hiện một <span class=\"highlight\">cú lao tới phía trước, gây sát thương cho kẻ thù trên đường đi</span>.<br><br>Mở Khóa Tối Thượng: <span class=\"highlight\">Khi cơn thịnh nộ đầy</span> một bóng của Shiv sẽ đi lại đường lao sau một khoảng thời gian ngắn, gây sát thương kẻ thù lần nữa."
 		"citadel_ability_shiv_dash_t3_tooltip"	"Trúng đòn"
@@ -1689,7 +1689,7 @@
 		"BurstFireOnHeroHit_postfix"				"s"
 		"citadel_ability_shiv_dash_t3_desc"		"Giảm thời gian hồi chiêu {s:CooldownReductionOnHit}s mỗi lần trúng anh hùng địch ({s:CooldownReductionOnHitNonHero}s cho Không Phải Anh Hùng). Tối đa -{s:MaxCooldownReductionsFromHits}s mỗi lần Lao."
 		
-		"citadel_ability_shiv_defer_damage"		"Bloodletting"
+		"citadel_ability_shiv_defer_damage"		"Rạch Máu"
 		"citadel_ability_shiv_defer_damage_quip"	"Hoãn một phần sát thương nhận vào"
 		"citadel_ability_shiv_defer_damage_desc"	"Chỉ nhận một phần sát thương đến ngay lập tức và hoãn phần còn lại để nhận dần theo thời gian. Kích hoạt để <span class=\"highlight\">xóa một phần sát thương đã hoãn</span>."
 		"citadel_ability_shiv_defer_damage_max_rage_desc" "Mở Khóa Tối Thượng: <span class=\"highlight\">Khi cơn thịnh nộ đầy</span> lượng sát thương hoãn được tăng lên."
@@ -1704,8 +1704,8 @@
 		"DeferClearPct_label"						"Sát Thương Hoãn Được Xóa"
 		"DeferClearPct_postfix"					"%"
 
-		"citadel_ability_shiv_killing_blow"		"Killing Blow"
-		"citadel_ability_shiv_killing_blow_quip"	"Di chuyển đến một anh hùng có Máu thấp và giết ngay lập tức"
+		"citadel_ability_shiv_killing_blow"		"Đòn Kết Liễu"
+		"citadel_ability_shiv_killing_blow_quip"	"Lao đến một anh hùng có Máu thấp và giết ngay lập tức"
 		"citadel_ability_shiv_killing_blow_active_desc"	"Kích hoạt để nhảy về phía một anh hùng địch và <span class=\"highlight\">giết ngay lập tức</span> họ nếu Máu của họ <span class=\"highlight\">dưới ngưỡng giết</span>, nếu không sẽ gây {s:Damage} sát thương cho họ."
 		"citadel_ability_shiv_killing_blow_passive_desc" "Nội tại: Gây sát thương cho kẻ thù làm bạn đầy cơn thịnh nộ. Khi cơn thịnh nộ đầy, Shiv nhận được sát thương tăng và <span class=\"highlight\">tính chất đặc biệt</span> trên các kỹ năng khác của anh ta."
 		"citadel_ability_shiv_killing_blow_t2_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> Ngưỡng Máu Kẻ Thù và <span class=\"highlight\">+{s:BuffDamage}%</span> Sát Thương Thêm Khi Đầy Cơn Thịnh Nộ"
@@ -1779,7 +1779,7 @@
 		//-----------------------------------------------------------------------------
 		// Hero: Pocket
 		//-----------------------------------------------------------------------------
-		"synth_plasma_flux"			"Flying Cloak"
+		"synth_plasma_flux"			"Áo Choàng Bay"
 		"synth_plasma_flux_quip"		"Phóng ra một áo choàng gây sát thương mà bạn có thể dịch chuyển đến"
 		"synth_plasma_flux_desc"		"Phóng ra một áo choàng có tri giác <span class=\"highlight\">di chuyển về phía trước</span> và <span class=\"highlight\">gây sát thương kẻ thù</span>. Bạn có thể nhấn <span class=\"highlight\">[{s:in_ability2}]</span> để <span class=\"highlight\">dịch chuyển</span> đến vị trí của nó."
 		"synth_plasma_flux_t3_desc"	"<span class=\"highlight\">+{s:WeaponDamageBonus} Sát Thương Vũ Khí</span> trong {s:WeaponDamageBonusDuration}s</span> sau khi dịch chuyển với Áo Choàng Bay."
@@ -1792,7 +1792,7 @@
 		"synth_plasma_flux_teleport"	"Dịch Chuyển"
 		"modifier_synth_plasma_flux_auto_projectile"	"Áo Choàng Bay"
 
-		"synth_pulse"					"Enchanter's Satchel"
+		"synth_pulse"					"Vali Ma Thuật"
 		"synth_pulse_quip"			"Thoát vào vali của bạn trong chốc lát, sau đó gây sát thương"
 		"synth_pulse_desc"			"<span class=\"highlight\">Thoát</span> vào vali của bạn. Khi thời gian kết thúc, <span class=\"highlight\">gây sát thương</span> cho kẻ thù gần đó. Thời gian có thể kết thúc sớm bằng cách thực hiện bất kỳ hành động nào."
 		"synth_pulse_t3_desc"			"Áp dụng <span class=\"highlight\">{s:FireRateSlow}%</span> Giảm Tốc Độ Bắn trong {s:DebuffDuration}s"
@@ -1817,7 +1817,7 @@
 		//"DamageInterval_label"		"Khoảng Thời Gian Gây Sát Thương"
 		"DamageInterval_postfix"		"s"
 
-		"synth_barrage"				"Barrage"
+		"synth_barrage"				"Bắn Phá"
 		"synth_barrage_quip"			"Lướt trên không trong khi bắn nhiều đạn"
 		"synth_barrage_desc"			"Niệm để bắt đầu phóng ra các viên đạn <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm chậm di chuyển</span> xung quanh điểm va chạm của chúng. Mỗi viên đạn trúng anh hùng sẽ cấp cho bạn một <span class=\"highlight\">buff tích lũy tăng cường tất cả sát thương của bạn</span>.<br>Nếu bạn thi triển khi đang ở trên không, bạn sẽ <span class=\"highlight\">lơ lửng</span> và duy trì bất kỳ động lượng ngang nào bạn đã bắt đầu."
 		"DamagePerProjectile_label"	"Sát Thương Mỗi Viên Đạn"
@@ -1831,26 +1831,26 @@
 		"modifier_synth_barrage_amp"	"Bắn Phá - Tăng Cường Sát Thương"
 		
 		//"synth_blitz"					"Blitz"
-		//"synth_blitz_quip"			"Đạn của bạn bắn nhanh hơn và áp dụng tăng cường tinh thần"
+		//"synth_blitz_quip"			"Đạn của bạn bắn nhanh hơn và áp dụng tăng cường Phép Thuật"
 		//"synth_blitz_desc"			"Nhận <span class=\"highlight\">tốc độ bắn nhanh</span> và <span class=\"highlight\">hút máu đạn</span> cho một loạt đạn ngắn."
 		//"synth_blitz_t1_desc"			"Mỗi phát bắn Blitz tăng cường Sát Thương Phép Thuật của bạn lên mục tiêu {s:TechAmpPerBullet}% trong {s:TechAmpLinger}s"
 		//"synth_blitz_t3_desc"			"+{s:FastFireBullets} Phát Bắn Nhanh và +{s:MaxStacks} Chồng Tối Đa"
-		//"TechAmpPerBullet_label"		"Tăng Cường Tinh Thần Mỗi Phát Bắn"
+		//"TechAmpPerBullet_label"		"Tăng Cường Phép Thuật Mỗi Phát Bắn"
 		"TechAmpPerBullet_postfix"	"%"
-		//"TechAmpLinger_label"			"Thời Gian Tăng Cường Tinh Thần"
+		//"TechAmpLinger_label"			"Thời Gian Tăng Cường Phép Thuật"
 		"TechAmpLinger_postfix"		"s"
 		//"FastFireBullets_label"		"Phát Bắn Nhanh"
 		//"FastFireDuration_label"		"Thời Gian Bắn Nhanh"
 		"FastFireDuration_postfix"	"s"
 		//"synth_blitz/modifier_synth_blitz"	"Blitz"
-		//"synth_blitz/modifier_synth_blitz_tech_amp"	"Blitz - Tăng Cường Tinh Thần"
+		//"synth_blitz/modifier_synth_blitz_tech_amp"	"Blitz - Tăng Cường Phép Thuật"
 
-		"synth_affliction"			"Affliction"
+		"synth_affliction"			"Dày Vò"
 		"synth_affliction_quip"		"Gây sát thương theo thời gian cho kẻ thù gần đó"
 		"synth_affliction_desc"		"Gây <span class=\"highlight\">sát thương theo thời gian</span> cho tất cả kẻ thù gần đó.<br>Sát thương của Affliction không gây chết người và không kích hoạt các hiệu ứng vật phẩm."
 		"synth_affliction_t2_desc"	"Ngăn chặn hồi phục của mục tiêu {s:HealAmpReceivePenaltyPercent}%"
 		"synth_affliction_t3_desc"	"+{s:DPS} DPS"
-		"modifier_synth_affliction_debuff"	"Affliction"
+		"modifier_synth_affliction_debuff"	"Dày Vò"
 
 		//-----------------------------------------------------------------------------
 		// Hero: Mirage
@@ -1880,11 +1880,11 @@
 		"modifier_mirage_fire_scarabs_health_loss"	"Bọ Hung Lửa"
 		"MirageFireScarabsHealthSteal_label"	"Hút Máu Tối Đa"
 
-		"mirage_teleport"		"Lữ Hành"
+		"mirage_teleport"		"Lữ Khách"
 		"mirage_teleport_quip"	"Dịch chuyển đến đồng minh hoặc anh hùng địch"
 		"mirage_teleport_desc"	"Niệm chú. Chọn một đồng minh hoặc anh hùng địch có thể nhìn thấy trên bản đồ nhỏ, sau đó <span class=\"highlight\">dịch chuyển</span> đến vị trí của họ khi bạn bắt đầu niệm chú. Sau khi dịch chuyển, bạn nhận được <span class=\"highlight\">tốc độ di chuyển</span> cũng như <span class=\"highlight\">tốc độ bắn cho đến khi bạn nạp đạn lần tiếp theo</span>."
 		"MirageTeleportMoveSpeed_conditional"	"Sau Khi Dịch Chuyển"
-		"mirage_teleport_movespeed"		"Lữ Hành - Tăng Tốc Độ Di Chuyển"
+		"mirage_teleport_movespeed"		"Lữ Khách - Tăng Tốc Độ Di Chuyển"
 		
 		"mirage_sand_phantom"			"Dấu Ấn Djinn"
 		"mirage_sand_phantom_quip"		"Áp dụng các hiệu ứng tăng dần sát thương"
@@ -1949,7 +1949,7 @@
 		//-----------------------------------------------------------------------------
 		// TENGU // IVY
 		//-----------------------------------------------------------------------------
-		"citadel_ability_tengu_urn"			"Kudzu Bomb"
+		"citadel_ability_tengu_urn"			"Bom Dây Leo"
 		"citadel_ability_tengu_urn_quip"	"Gây sát thương và làm chậm kẻ thù trong khu vực"
 		"citadel_ability_tengu_urn_desc"	"Triệu hồi một mảng dây leo nghẹt thở <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm chậm</span> kẻ thù trong bán kính của nó."
 		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} DPS</span>"
@@ -1958,15 +1958,15 @@
 		//"citadel_ability_tengu_ghost_desc"		"Triệu hồi một bóng ma theo dõi nảy ngẫu nhiên {s:Bounces} lần đến mục tiêu mới sau khi va chạm. Làm chậm mục tiêu trúng trong 5 giây."
 		//"citadel_ability_tengu_ghost_t3_desc"	"Nảy thêm +{s:Bounces} lần"
 		
-		"citadel_ability_tengu_stone_form"			"Stone Form"
+		"citadel_ability_tengu_stone_form"			"Hóa Đá"
 		"citadel_ability_tengu_stone_form_quip"		"Biến thành đá không thể xuyên thủng và làm choáng kẻ thù gần đó"
 		"citadel_ability_tengu_stone_form_desc"		"Biến mình thành <span class=\"highlight\">đá không thể xuyên thủng</span> và đập xuống đất, <span class=\"highlight\">làm choáng và gây sát thương</span> kẻ thù gần đó. Hồi phục một phần trăm Máu tối đa của bạn. Bạn có thể điều khiển trên không trước khi rơi."
 		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} Sát Thương</span> và làm choáng trong <span class=\"highlight\">{s:StunDuration}s</span>."
 		"MaxHealthRegen_label"						"Hồi Phục Máu Tối Đa"
 		"MaxHealthRegen_postfix"					"%"
-		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"Stone Form"
+		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"Hóa Đá"
 
-		"citadel_ability_tangotether"		"Watcher's Covenant"
+		"citadel_ability_tangotether"		"Giao Ước Đồng Minh"
 		"citadel_ability_tangotether_quip"	"Tăng cường bản thân và đồng minh gần đó"
 		"citadel_ability_tangotether_desc"	"Nhận các phần thưởng và tự động kết nối với đồng minh gần đó để chia sẻ chúng. <span class=\"highlight\">Hồi phục được sao chép</span> giữa tất cả những người được kết nối. Kết nối yêu cầu tầm nhìn. Nhấn [{s:in_ability2}] để Khóa mục tiêu"
 		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus}m/s tăng tốc độ di chuyển"
@@ -2016,7 +2016,7 @@
 		
 		//"citadel_ability_tengu_dragonsfire_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration}s</span> Thời Gian và <span class=\"highlight\">+{s:FlyingBulletResist}</span> Kháng Đạn Khi Bay"
 		
-		"citadel_ability_tengu_airlift"				"Air Drop"
+		"citadel_ability_tengu_airlift"				"Thả Bom"
 		
 				"citadel_ability_tengu_airlift_quip"		"Tử Thần Từ Trên Cao! Bay và thả bom (hoặc đồng minh) lên kẻ thù"
 		"citadel_ability_tengu_airlift_desc"		"Bay cùng đồng minh hoặc bom. Thả đồng minh hoặc bom để gây ra một <span class=\"highlight\">vụ nổ lớn</span> gây <span class=\"highlight\">làm chậm chuyển động</span>. {s:hero_name} và đồng minh nhận một khiên đạn khi bay kết thúc. <br>Trong khi được nâng lên, đồng minh của bạn nhận kháng đạn nhưng không thể tấn công và gây {s:AllyOutgoingDamagePercent}% sát thương. Thả Bom có thời gian thi triển nhanh hơn khi nhắm mục tiêu đồng minh. <br>[{s:iv_attack}] để tăng tốc độ bay. <br>[{s:iv_attack2}] để thả đồng minh/bom."
@@ -2434,7 +2434,7 @@
 		//-----------------------------------------------------------------------------
 		// Yamato
 		//-----------------------------------------------------------------------------
-		"citadel_ability_power_slash"		"Power Slash"
+		"citadel_ability_power_slash"		"Chém Mạnh"
 		"citadel_ability_power_slash_quip"	"Tích điện một đòn tấn công, gây sát thương cao khi tích điện đầy đủ"
 		"citadel_ability_power_slash_desc"	"Niệm để tăng sát thương trong {s:AbilityCastDelay} giây, sau đó tung ra một <span class=\"highlight\">cú chém kiếm tích điện đầy đủ</span>.<br>Nhấn [{s:in_ability1}] hoặc [{s:iv_attack}] để kích hoạt cú chém sớm, gây sát thương một phần."
 		"power_slash_debuff"				"Cú Chém Sức Mạnh"
@@ -2458,7 +2458,7 @@
 		"citadel_ability_power_slash_t2_desc"	"Áp dụng <span class=\"highlight\">{s:SlowPercent}% làm chậm di chuyển</span> trong <span class=\"highlight\">{s:SlowDuration}s</span>"
 		//"StaminaToRemove_label"				"Tiêu Hao Sức Bền"
 
-		"citadel_ability_flying_strike"			"Flying Strike"
+		"citadel_ability_flying_strike"			"Đòn Bay"
 		"citadel_ability_flying_strike_quip"	"Bay về phía mục tiêu kẻ thù"
 		"citadel_ability_flying_strike_desc"	"Ném một móc câu để <span class=\"highlight\">kéo bạn về phía kẻ thù, gây sát thương và làm chậm mục tiêu</span> khi bạn đến."
 		"citadel_ability_flying_strike/slow" "Làm Chậm Cú Đánh Bay"
@@ -2466,7 +2466,7 @@
 		"citadel_ability_flying_strike_t3_desc" "<span class=\"highlight\">+{s:WeaponDamageBonus}</span> Sát Thương Vũ Khí trong <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}s</span> sau khi đánh trúng mục tiêu"
 		"yamato_flying_strike_t3_header"			"Khi đến mục tiêu:"
 		
-		"citadel_ability_infinity_slash"		"Shadow Transformation"
+		"citadel_ability_infinity_slash"		"Hình Thái Bóng Tối"
 		"citadel_ability_infinity_slash_quip"	"Trở nên bất khả xâm phạm và mạnh mẽ hơn"
 		"citadel_ability_infinity_slash_desc"	"Trở nên hòa nhập với linh hồn bóng tối của Yamato. Sau một <span class=\"highlight\">biến hình bất khả xâm phạm</span> ban đầu, <span class=\"highlight\">khả năng của bạn được làm mới và nhanh hơn 60%</span>, vũ khí của bạn có <span class=\"highlight\">đạn vô hạn</span>, và bạn nhận được <span class=\"highlight\">kháng sát thương</span> và <span class=\"highlight\">miễn nhiễm với các hiệu ứng xấu</span>. Bạn không thể chết trong chế độ này."
 		//"citadel_ability_infinity_slash_buff_header" "Mỗi Anh Hùng Bị Đánh Trúng"	
@@ -2480,7 +2480,7 @@
 		
 		"citadel_ability_infinity_slash/timer"	"Dạng Bóng Tối"
 
-		"citadel_ability_healing_slash"			"Crimson Slash"
+		"citadel_ability_healing_slash"			"Lưỡi Chém Đẫm Máu"
 		"citadel_ability_healing_slash_quip"	"Gây sát thương kẻ thù gần đó, hồi phục khi trúng"
 		"citadel_ability_healing_slash_desc"	"Chém kẻ thù trước mặt bạn, <span class=\"highlight\">gây sát thương và làm chậm tốc độ bắn của chúng</span>. Nếu bất kỳ anh hùng địch nào bị trúng, bạn sẽ <span class=\"highlight\">hồi phục</span>."
 		"citadel_ability_healing_slash/debuff"	"Chém Đỏ"
@@ -2541,7 +2541,7 @@
 		//-----------------------------------------------------------------------------
 		// Viscous
 		//-----------------------------------------------------------------------------
-		"viscous_goo_grenade"							"Splatter"
+		"viscous_goo_grenade"							"Vũng Nhờn"
 		"viscous_goo_grenade_desc"						"Ném một quả bóng chất nhờn <span class=\"highlight\">gây sát thương</span> và để lại vũng chất nhờn phía sau áp dụng <span class=\"highlight\">làm chậm di chuyển</span> cho kẻ thù trong bán kính."
 		"viscous_goo_grenade_bounce_desc"				"Nhiều lần trúng cùng một mục tiêu gây ít sát thương hơn."
 		"viscous_goo_grenade_quip"						"Gây sát thương kẻ thù và tạo ra một mớ hỗn độn"
@@ -2555,7 +2555,7 @@
 		"PuddleDuration_label"							"Thời Gian Tồn Tại Vũng Nhờn"
 		"PuddleDuration_postfix"						"s"
 
-		"viscous_restorative_goo"						"The Cube"
+		"viscous_restorative_goo"						"Khối Lập Phương"
 		"viscous_restorative_goo_desc"					"Bao bọc mục tiêu trong một khối chất nhờn phục hồi <span class=\"highlight\">loại bỏ các hiệu ứng xấu, bảo vệ khỏi sát thương và tăng hồi phục Máu</span>. Mục tiêu <span class=\"highlight\">không thể thực hiện bất kỳ hành động mới nào</span> trong khi bị bao bọc. Có thể sử dụng cho bản thân. Nhấn <span class=\"highlight\">[{s:in_mantle}]</span> để thoát sớm."
 		"viscous_restorative_goo_quip"					"Khối Lập Phương là nơi an toàn để ở"
 		"viscous_restorative_goo_t1_desc"				"Tăng Tốc Độ Di Chuyển và Hồi Phục Sức Bền"
@@ -2569,12 +2569,12 @@
 		//"viscous_goo_puddle_desc"						"Biến mình thành một vũng chất nhờn, trở nên <span class=\"highlight\">miễn nhiễm với sát thương</span> và <span class=\"highlight\">gây sát thương cho kẻ thù gần đó</span>."
 		//"viscous_goo_puddle_t3_desc"					"[Chưa Được Thực Hiện]"
 
-		"viscous_goo_bowling_ball"						"Goo Ball"
-		"viscous_goo_bowling_ball_desc"					"Biến thành một quả bóng chất nhờn lớn <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm choáng</span> kẻ thù khi va chạm. Quả bóng cung cấp lượng lớn kháng <span class=\"highlight\">Đạn</span> và <span class=\"highlight\">Tinh Thần</span>, nảy khỏi tường và có thể <span class=\"highlight\">nhảy đôi</span>."
+		"viscous_goo_bowling_ball"						"Quả Bóng Nhờn"
+		"viscous_goo_bowling_ball_desc"					"Biến thành một quả bóng chất nhờn lớn <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm choáng</span> kẻ thù khi va chạm. Quả bóng cung cấp lượng lớn kháng <span class=\"highlight\">Đạn</span> và <span class=\"highlight\">Phép Thuật</span>, nảy khỏi tường và có thể <span class=\"highlight\">nhảy đôi</span>."
 		"viscous_goo_bowling_ball_quip"					"Lăn quanh và gây hỗn loạn"
 		"viscous_goo_bowling_ball_t3_desc"				"Có thể sử dụng kỹ năng và vật phẩm khi đang lăn"
 
-		"viscous_telepunch"								"Puddle Punch"				
+		"viscous_telepunch"								"Đấm Chất Nhờn"				
 
 		"viscous_telepunch_desc"						"Hiện thực hóa một nắm đấm trong thế giới <span class=\"highlight\">đấm</span> các đơn vị trong khu vực và đẩy chúng bay đi. Kẻ thù sẽ bị <span class=\"highlight\">gây sát thương</span>, giảm khoảng cách lao trong một thời gian ngắn và bị <span class=\"highlight\">làm chậm di chuyển</span>. Đây được coi là một đòn <span class=\"highlight\">Cận Chiến Nhẹ</span>."
 		"viscous_telepunch_quip"						"Đấm kẻ thù bằng một nắm đấm khổng lồ"
@@ -2596,6 +2596,8 @@
 		"RollingTime_postfix"							"s"
 		"CubeHealth_label"								"Máu Khối Lập Phương"
 		//"viscous_gootapult_hint"						"Phóng!"
+		
+		
 		//-----------------------------------------------------------------------------
 		// Hero Sky Monk
 		//-----------------------------------------------------------------------------
